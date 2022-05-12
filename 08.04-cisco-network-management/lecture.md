@@ -142,7 +142,12 @@ Intent API иерархически организован в функциона
 
 | **Authentication** | **Аутентификация пользователя и генерация токена сеанса** | **Authentication** |
 | --- | --- | --- |
-| Know Your Network | Обнаружение и управление сайтами, топологией, устройствами, пользователями и проблемами. | • Sites • Topology • Devices • Clients • Users • Issues |
+| Know Your Network | Обнаружение и управление сайтами, топологией, устройствами, пользователями и проблемами. | • Sites 
+• Topology 
+• Devices 
+• Clients 
+• Users 
+• Issues |
 | Site Management | Подготовка, подключение и развертывание корпоративной сети, а также управление образами программного обеспечения. | • Site Design • Network Settings • Software Image Management • Device Onboarding (PnP) • Configuration Templates |
 | Connectivity | Управление и настройка проводных и некомбинированных беспроводных сетей SD\-Access, включая корпоративные SSID, профили беспроводной связи, профили RF и точки доступа. | SDA Non-Fabric Wireless |
 | Operational Tasks | Команда (CLI). Управление задачами и тегами Обнаружение сети и отслеживание пути ›Управление тегами Управление задачами | • Command Runner • Network Discovery • Path Trace • File • Task • Tag |
