@@ -141,31 +141,12 @@ Intent API предоставляет средства для программн
 Intent API иерархически организован в функциональные группы, известные как домены и субдомены.
 
 | Authentication | Аутентификация пользователя и генерация токена сеанса | Authentication |
-| Know Your Network | Обнаружение и управление сайтами, топологией, устройствами, пользователями и проблемами. | • Sites
-• Topology
-• Devices
-• Clients
-• Users
-• Issues |
-| Site Management | Подготовка, подключение и развертывание корпоративной сети, а также управление образами программного обеспечения. | • Site Design
-• Network Settings
-• Software Image Management
-• Device Onboarding (PnP)
-• Configuration Templates |
+| Know Your Network | Обнаружение и управление сайтами, топологией, устройствами, пользователями и проблемами. | • Sites • Topology • Devices • Clients • Users • Issues |
+| Site Management | Подготовка, подключение и развертывание корпоративной сети, а также управление образами программного обеспечения. | • Site Design • Network Settings • Software Image Management • Device Onboarding (PnP) • Configuration Templates |
 | Connectivity | Управление и настройка проводных и некомбинированных беспроводных сетей SD\-Access, включая корпоративные SSID, профили беспроводной связи, профили RF и точки доступа. | SDA Non-Fabric Wireless |
-| Operational Tasks | Команда (CLI). Управление задачами и тегами Обнаружение сети и отслеживание пути ›Управление тегами Управление задачами | • Command Runner
-• Network Discovery
-• Path Trace
-• File
-• Task
-• Tag |
+| Operational Tasks | Команда (CLI). Управление задачами и тегами Обнаружение сети и отслеживание пути ›Управление тегами Управление задачами | • Command Runner • Network Discovery • Path Trace • File • Task • Tag |
 | Policy | Приложения, наборы приложений и управление политиками приложений | Authentication |
-| Event Management | Настраивать и управлять основанными на событиях уведомлениями для внешних обработчиков | • Sites
-• Topology
-• Devices
-• Clients
-• Users
-• Issues |
+| Event Management | Настраивать и управлять основанными на событиях уведомлениями для внешних обработчиков | • Sites • Topology • Devices •  Clients • Users • Issues |
 
 <!-- 8.4.4 -->
 ## Cisco DNA Center - Intent API
@@ -833,7 +814,8 @@ nx-osv9000-1(config)#run bash sudo su
  bash-4.2# yum install mtx-openconfig-all-1.0.0.0-9.2.1.lib32_n9000.rpm
 ```
 
-<!-- 8.4.16 Cisco NSO
+<!-- 8.4.16-->
+## Cisco NSO
 
 Отрасль быстро движется к сервис-ориентированному подходу к управлению сетью, когда сложные сервисы поддерживаются множеством разнообразных систем и процессов. Для управления услугами операторы переходят от управления частями оборудования к активному управлению различными аспектами услуг.
 
