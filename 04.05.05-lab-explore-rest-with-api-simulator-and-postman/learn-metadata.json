@@ -1,0 +1,30 @@
+{
+    "title": "Лабораторная работа. Изучение Rest API с симулятором API и Postman",
+	"shortName": "lab-4.5.5",
+    "materialType": "lab",
+    "description": "Виртуальная машина DEVASC включает симулятор API школьной библиотеки с документацией по API и связанной базой данных. Вы можете использовать симулятор в автономном режиме, чтобы изучить API-интерфейсы и проверить их функциональность.     В этой лабораторной работе вы узнаете, как использовать симулятор API School Library для выполнения вызовов API для отображения, добавления и удаления книг. Позже вы будете использовать Postman для выполнения тех же вызовов API.     ",
+    "difficulty": 1,
+    "duration": "PT0H22M",
+    "tags": [
+        "Cisco",
+        "Devnet"
+    ],
+    "credentialsSchema": {
+        "userName": {
+            "title": "Имя пользователя",
+            "source": "learn_user"
+        },
+        "password": {
+            "title": "Пароль",
+            "source": "learn_password"
+        },
+        "consoleURL": {
+            "title": "Адрес портала",
+            "value": "https://portal.skillscloud.company"
+        }
+    },
+    "skills": {},
+    "testProjectPath": "./README.md",
+	"deploymentPath": "deploy",
+    "assetsPath": "assets"
+}

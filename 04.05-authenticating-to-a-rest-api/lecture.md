@@ -103,4 +103,4 @@ Authorization: Bearer <bearer token>
 * Часть 3. Использование Postman для вызовов API к симулятору API
 * Часть 4. Использование Python для добавления 100 книг в симулятор API
 
-Изучите REST API с помощью API Simulator и Postman
+[Изучите REST API с помощью API Simulator и Postman](../04.05.05-lab-explore-rest-with-api-simulator-and-postman/README.md)
