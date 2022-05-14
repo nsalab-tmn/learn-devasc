@@ -271,4 +271,4 @@ circle3.printCircumference()
 * Часть 4: Определение класса с помощью методов
 * Часть 5. Обзор скрипта circleClass.py
 
-[Перейти к лабораторной работе](./assets/3.4.6-lab.md)
+[Перейти к лабораторной работе](../03.04.06-lab-explore-python-classes/README.md)

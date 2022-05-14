@@ -1,0 +1,30 @@
+{
+    "title": "Лабораторная работа. Контроль версий программного обеспечения с Git",
+	"shortName": "lab-*.*.*",
+    "materialType": "lab",
+    "description": "В этой лабораторной работе вы изучите основы распределенной системы управления версиями Git, включая большинство функций, которые вам необходимо знать для совместной работы над программным проектом. Вы также интегрируете свой локальный репозиторий Git с облачным репозиторием GitHub.",
+    "difficulty": 1,
+    "duration": "PT0H22M",
+    "tags": [
+        "Cisco",
+        "Devnet"
+    ],
+    "credentialsSchema": {
+        "userName": {
+            "title": "Имя пользователя",
+            "source": "learn_user"
+        },
+        "password": {
+            "title": "Пароль",
+            "source": "learn_password"
+        },
+        "consoleURL": {
+            "title": "Адрес портала",
+            "value": "https://portal.skillscloud.company"
+        }
+    },
+    "skills": {},
+    "testProjectPath": "./README.md",
+	"deploymentPath": "deploy",
+    "assetsPath": "assets"
+}

@@ -1,0 +1,30 @@
+{
+    "title": "Лабораторная работа. Обзор Linux",
+	"shortName": "lab-1.2.2",
+    "materialType": "lab",
+    "description": "В этой лабораторной работе вы проверите базовые навыки работы с Linux, включая навигацию по командам, управление файлами, регулярные выражения и системное администрирование. Эта лабораторная работа не предназначена для замены предыдущего опыта работы с Linux и не обязательно охватывает все навыки работы с Linux, необходимые для этого курса. Тем не менее, эта лабораторная работа должна служить хорошей мерой ваших навыков работы с Linux и подсказывать вам, где вам может понадобиться дополнительная проверка.",
+    "difficulty": 1,
+    "duration": "PT0H22M",
+    "tags": [
+        "Cisco",
+        "Devnet"
+    ],
+    "credentialsSchema": {
+        "userName": {
+            "title": "Имя пользователя",
+            "source": "learn_user"
+        },
+        "password": {
+            "title": "Пароль",
+            "source": "learn_password"
+        },
+        "consoleURL": {
+            "title": "Адрес портала",
+            "value": "https://portal.skillscloud.company"
+        }
+    },
+    "skills": {},
+    "testProjectPath": "./README.md",
+	"deploymentPath": "deploy",
+    "assetsPath": "assets"
+}

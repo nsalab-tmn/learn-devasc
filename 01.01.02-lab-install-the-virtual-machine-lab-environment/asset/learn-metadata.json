@@ -1,0 +1,30 @@
+{
+    "title": "# Лабораторная работа. Установка виртуальной среды для выполнения лабораторных работ",
+	"shortName": "lab-1.1.2",
+    "materialType": "lab",
+    "description": "В этой лабораторной работе вы установите виртуальную машину DEVASC (DEVASC VM) в Oracle VirtualBox. После завершения установки вы познакомитесь с графическим интерфейсом пользователя. Затем вы создадите необходимые учетные записи для сервисов, которые будете использовать в лабораторных работах. Наконец, вы установите Webex Teams в лабораторной среде для общения с другими учащимися в классе и для использования в последующих лабораторных работах.",
+    "difficulty": 1,
+    "duration": "PT0H22M",
+    "tags": [
+        "Cisco",
+        "Devnet"
+    ],
+    "credentialsSchema": {
+        "userName": {
+            "title": "Имя пользователя",
+            "source": "learn_user"
+        },
+        "password": {
+            "title": "Пароль",
+            "source": "learn_password"
+        },
+        "consoleURL": {
+            "title": "Адрес портала",
+            "value": "https://portal.skillscloud.company"
+        }
+    },
+    "skills": {},
+    "testProjectPath": "./README.md",
+	"deploymentPath": "deploy",
+    "assetsPath": "assets"
+}

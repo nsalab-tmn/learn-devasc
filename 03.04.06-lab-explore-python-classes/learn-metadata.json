@@ -1,0 +1,30 @@
+{
+    "title": "Лабораторная работа. Обзор классов Python",
+	"shortName": "lab-3.4.6",
+    "materialType": "lab",
+    "description": "В этой лабораторной работе вы рассмотрите методы, функции и классы Python. Затем вы создаете класс и несколько раз инстанцируете его с разными значениями. Наконец, вы рассмотрите пример класса Circle, использованный в курсе.",
+    "difficulty": 1,
+    "duration": "PT0H22M",
+    "tags": [
+        "Cisco",
+        "Devnet"
+    ],
+    "credentialsSchema": {
+        "userName": {
+            "title": "Имя пользователя",
+            "source": "learn_user"
+        },
+        "password": {
+            "title": "Пароль",
+            "source": "learn_password"
+        },
+        "consoleURL": {
+            "title": "Адрес портала",
+            "value": "https://portal.skillscloud.company"
+        }
+    },
+    "skills": {},
+    "testProjectPath": "./README.md",
+	"deploymentPath": "deploy",
+    "assetsPath": "assets"
+}
