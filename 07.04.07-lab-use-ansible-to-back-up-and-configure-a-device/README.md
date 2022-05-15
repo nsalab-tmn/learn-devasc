@@ -100,36 +100,36 @@ Ansible использует файл инвентаризации под наз
 
 Используя путь по умолчанию, отображаемый в команде **ansible --version**, отобразите файл конфигурации по умолчанию. Обратите внимание, это очень длинный файл. Вы можете передать вывод команды **cat** по конвейеру **more**, чтобы отображалась одна страница за раз. Выделены записи, которые будут в вашем файле **ansible.cfg** для этой лабораторной работы.
 
-    ```
-    devasc@labvm:~/labs/devnet-src/ansible$ cat /etc/ansible/ansible.cfg | more
-    # config file for ansible -- https://ansible.com/
-    # ===============================================
+```
+devasc@labvm:~/labs/devnet-src/ansible$ cat /etc/ansible/ansible.cfg | more
+# config file for ansible -- https://ansible.com/
+# ===============================================
 
-    # nearly all parameters can be overridden in ansible-playbook
-    # or with command line flags. ansible will read ANSIBLE_CONFIG,
-    # ansible.cfg in the current working directory, .ansible.cfg in
-    # the home directory or /etc/ansible/ansible.cfg, whichever it
-    # finds first
+# nearly all parameters can be overridden in ansible-playbook
+# or with command line flags. ansible will read ANSIBLE_CONFIG,
+# ansible.cfg in the current working directory, .ansible.cfg in
+# the home directory or /etc/ansible/ansible.cfg, whichever it
+# finds first
 
-    [defaults]
+[defaults]
 
-    # some basic default values...
+# some basic default values...
 
-    #inventory      = /etc/ansible/hosts
-    <output omitted>
+#inventory      = /etc/ansible/hosts
+<output omitted>
 
-    # uncomment this to disable SSH key host checking
-    #host_key_checking = False
-    <output omitted>
+# uncomment this to disable SSH key host checking
+#host_key_checking = False
+<output omitted>
 
-    # retry files
-    # When a playbook fails a .retry file can be created that will be placed in ~/
-    # You can enable this feature by setting retry_files_enabled to True
-    # and you can change the location of the files by setting retry_files_save_path
+# retry files
+# When a playbook fails a .retry file can be created that will be placed in ~/
+# You can enable this feature by setting retry_files_enabled to True
+# and you can change the location of the files by setting retry_files_save_path
 
-    #retry_files_enabled = False
-    <output omitted>
-    ```
+#retry_files_enabled = False
+<output omitted>
+```
 
 Обратите внимание, что Ansible показывает, что файл **hosts** инвентаризации, который он будет использовать по умолчанию, - это **/etc/ansible/hosts**. На предыдущем шаге вы отредактировали файл инвентарных **hosts** в каталоге **ansible-csr1000v directory**. На следующем шаге вы отредактируете новый файл **ansible.cfg**, который использует созданный вами файл инвентаризации **hosts**.
 
@@ -271,7 +271,7 @@ ansible-playbook backup_cisco_router_playbook.yaml -i hosts
 Вторая задача - сохранить вывод:
 
 -   `- name: SAVE OUTPUT TO ./backups/` - Название задачи
--   **copy:**- Это **модуль** Ansible, используемый для копирования файлов в удаленное место. С этим модулем связаны два параметра:
+-   `copy:`- Это **модуль** Ansible, используемый для копирования файлов в удаленное место. С этим модулем связаны два параметра:
 -   `content: "{{ config.stdout[0] }}"` - указанное значение для этого параметра - это данные, хранящиеся в переменной **config**, регистровой переменной Ansible, использованной в предыдущей задаче. Стандартный вывод (**stdout**) - это дескриптор файла по умолчанию, куда процесс может записывать вывод, используемый в Unix-подобных операционных системах, таких как Linux и Mac OS X.
 -   `dest: "backups/show_run_{{ inventory_hostname }}.txt"` - Это путь и имя файла, куда следует скопировать файл. Переменная **inventory_hostname** - это «волшебная переменная» Ansible, которая автоматически получает имя хоста, настроенное в файле **hosts**. В вашем случае напомним, что это **CSR1kv**. Этот параметр приводит к созданию файла **show_run_CSR1kv.txt**, хранящегося в каталоге резервных копий. Этот файл будет содержать вывод команды **show running-config**. На следующем шаге вы создадите каталог резервных копий.
 
@@ -384,7 +384,7 @@ hostname CSR1kv
     **cisco_router_ipv6_config_playbook.yaml**
 1.  Добавьте в файл следующую информацию. Убедитесь, что вы используете правильный отступ YAML. Каждый пробел и тире значимы. Вы можете потерять часть форматирования, если скопируете и вставите.
 
-    ```
+    ```yaml
     ---
     - name: CONFIGURE IPv6 ADDRESSING
     hosts: CSR1kv
