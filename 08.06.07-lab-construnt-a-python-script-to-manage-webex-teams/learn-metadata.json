@@ -1,0 +1,30 @@
+{
+    "title": "Лабораторная работа. Создание скриптов Python для управления Webex Teams",
+	"shortName": "lab-8.6.7",
+    "materialType": "lab",
+    "description": "В этой лабораторной работе вы будете использовать API Webex Teams для проверки подлинности, управления людьми, управления комнатами, управления членством в комнатах и отправки сообщений.",
+    "difficulty": 1,
+    "duration": "PT0H22M",
+    "tags": [
+        "Cisco",
+        "Devnet"
+    ],
+    "credentialsSchema": {
+        "userName": {
+            "title": "Имя пользователя",
+            "source": "learn_user"
+        },
+        "password": {
+            "title": "Пароль",
+            "source": "learn_password"
+        },
+        "consoleURL": {
+            "title": "Адрес портала",
+            "value": "https://portal.skillscloud.company"
+        }
+    },
+    "skills": {},
+    "testProjectPath": "./README.md",
+	"deploymentPath": "deploy",
+    "assetsPath": "assets"
+}

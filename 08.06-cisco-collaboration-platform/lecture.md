@@ -556,6 +556,8 @@ API-интерфейс Webex Teams - это обширный набор API-ин
 * Часть 5: Управление помещениями в Webex Teams
 * Часть 6: Управление членством в Webex Teams
 * Часть 7. Управление сообщениями в Webex Teams
+
+[Создание сценария Python для управления Webex Teams](../08.06.07-lab-construnt-a-python-script-to-manage-webex-teams/README.md)
 * 
 <!-- 8.6.8 -->
 ## Устройства Webex
