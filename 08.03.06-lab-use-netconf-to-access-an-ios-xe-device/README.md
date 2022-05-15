@@ -532,16 +532,16 @@ Python имеет встроенную поддержку работы с XML-ф
 
 Чтобы обновить существующий параметр в конфигурации для CSR1kv, вы можете извлечь местоположение параметра из конфигурации, полученной ранее. На этом шаге вы установите переменную для изменения значения **\<hostname\>**.
 
-    ```xml
-    devasc@labvm:~/labs/devnet-src/netconf$ python3 ncclient-netconf.py 
-    <?xml version="1.0" ?> 
-    <rpc-reply xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="urn:uuid:4da5b736-1d33-47c3-8e3c-349414be0958">
-            <data>
-                    <native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
-    (output omitted)
-                            <hostname>CSR1kv</hostname>
-    (output omitted)
-    ```
+```xml
+devasc@labvm:~/labs/devnet-src/netconf$ python3 ncclient-netconf.py 
+<?xml version="1.0" ?> 
+<rpc-reply xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="urn:uuid:4da5b736-1d33-47c3-8e3c-349414be0958">
+        <data>
+                <native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
+(output omitted)
+                        <hostname>CSR1kv</hostname>
+(output omitted)
+```
 
 1.  Ранее вы определили переменную \<filter\>. Чтобы изменить конфигурацию устройства, вы определите переменную \<config\>. Добавьте следующую переменную в свой сценарий **ncclient_netconf.py**. Вы можете использовать NEWHOSTNAME или любое другое имя хоста, какое пожелаете.
 
@@ -717,85 +717,85 @@ Python имеет встроенную поддержку работы с XML-ф
 
 Ниже приведена полная программа, созданная в этой лабораторной работе, без каких-либо комментариев, поэтому вы можете запустить сценарий без ошибок. Ваш сценарий может выглядеть иначе. Практикуйте свои навыки Python, изменив программу для отправки различных команд проверки и настройки.
 
-    ```python
-    from ncclient import manager
-    import xml.dom.minidom
+```python
+from ncclient import manager
+import xml.dom.minidom
 
-    m = manager.connect(
-        host="192.168.56.101",
-        port=830,
-        username="cisco",
-        password="cisco123!",
-        hostkey_verify=False
-        )
+m = manager.connect(
+    host="192.168.56.101",
+    port=830,
+    username="cisco",
+    password="cisco123!",
+    hostkey_verify=False
+    )
 
-    print("#Supported Capabilities (YANG models):")
-    for capability in m.server_capabilities:
-        print(capability) 
+print("#Supported Capabilities (YANG models):")
+for capability in m.server_capabilities:
+    print(capability) 
 
-    netconf_reply = m.get_config(source="running")
-    print(xml.dom.minidom.parseString(netconf_reply.xml).toprettyxml())
+netconf_reply = m.get_config(source="running")
+print(xml.dom.minidom.parseString(netconf_reply.xml).toprettyxml())
 
-    netconf_filter = """
-    <filter>
-        <native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native" />
-    </filter>
-    """
-    netconf_reply = m.get_config(source="running", filter=netconf_filter)
-    print(xml.dom.minidom.parseString(netconf_reply.xml).toprettyxml())
+netconf_filter = """
+<filter>
+    <native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native" />
+</filter>
+"""
+netconf_reply = m.get_config(source="running", filter=netconf_filter)
+print(xml.dom.minidom.parseString(netconf_reply.xml).toprettyxml())
 
-    netconf_hostname = """
-    <config>
-    <native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
-        <hostname>CSR1kv</hostname>
-    </native>
-    </config>
-    """
-    netconf_reply = m.edit_config(target="running", config=netconf_hostname)
-    print(xml.dom.minidom.parseString(netconf_reply.xml).toprettyxml())
+netconf_hostname = """
+<config>
+<native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
+    <hostname>CSR1kv</hostname>
+</native>
+</config>
+"""
+netconf_reply = m.edit_config(target="running", config=netconf_hostname)
+print(xml.dom.minidom.parseString(netconf_reply.xml).toprettyxml())
 
-    netconf_loopback = """
-    <config>
-    <native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
-    <interface>
-    <Loopback>
-        <name>1</name>
-        <description>My NETCONF loopback</description>
-        <ip>
-        <address>
-        <primary>
-        <address>10.1.1.1</address>
-        <mask>255.255.255.0</mask>
-        </primary>
-        </address>
-        </ip>
-    </Loopback>
-    </interface>
-    </native>
-    </config>
-    """
-    netconf_reply = m.edit_config(target="running", config=netconf_loopback)
-    print(xml.dom.minidom.parseString(netconf_reply.xml).toprettyxml())
+netconf_loopback = """
+<config>
+<native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
+<interface>
+<Loopback>
+    <name>1</name>
+    <description>My NETCONF loopback</description>
+    <ip>
+    <address>
+    <primary>
+    <address>10.1.1.1</address>
+    <mask>255.255.255.0</mask>
+    </primary>
+    </address>
+    </ip>
+</Loopback>
+</interface>
+</native>
+</config>
+"""
+netconf_reply = m.edit_config(target="running", config=netconf_loopback)
+print(xml.dom.minidom.parseString(netconf_reply.xml).toprettyxml())
 
-    netconf_newloop = """
-    <config>
-    <native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
-    <interface>
-    <Loopback>
-        <name>2</name>
-        <description>My second NETCONF loopback</description>
-        <ip>
-        <address>
-        <primary>
-        <address>10.1.1.1</address>
-        <mask>255.255.255.0</mask>
-        </primary>
-        </address>
-        </ip>
-    </Loopback>
-    </interface>
-    </native>
-    </config>
-    """
-    netconf_reply = m.edit_config(target="running", config=netconf_newloop)
-    ```
+netconf_newloop = """
+<config>
+<native xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-native">
+<interface>
+<Loopback>
+    <name>2</name>
+    <description>My second NETCONF loopback</description>
+    <ip>
+    <address>
+    <primary>
+    <address>10.1.1.1</address>
+    <mask>255.255.255.0</mask>
+    </primary>
+    </address>
+    </ip>
+</Loopback>
+</interface>
+</native>
+</config>
+"""
+netconf_reply = m.edit_config(target="running", config=netconf_newloop)
+```
