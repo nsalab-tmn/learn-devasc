@@ -79,7 +79,7 @@
 
 Вы получите следующий ответ. Этот шаг проверяет наличие внешнего доступа к Packet Tracer и **PT-Controller0** . Обратите внимание, что для авторизации требуется билет. Вы получите токен авторизации в следующей части.
 
-```
+```json
 {
     "response": {
         "detail": "Security Authentication Failure",
@@ -87,7 +87,7 @@
         "message": "Ticket-based authorization: empty ticket."
     },
     "version": "1.0"
-} {
+}
 ```
 
 ### Часть 3. Запрос токена аутентификации с почтальоном
@@ -117,7 +117,7 @@
 5.  Щелкните стрелку вниз рядом с **Text** и измените его на **JSON** . Это изменение также установит для HTTP-заголовка «Content-type» значение «application/json», необходимое для этого вызова API.
 6.  Вставьте следующий объект JSON в поле **Body**. Убедитесь, что ваш код правильно отформатирован
 
-    ```
+    ```json
     {
         "username": "cisco",
         "password": "cisco123!"
@@ -130,7 +130,7 @@
 
     Вы должны получить ответ, подобный следующему. Однако **your_serviceTicket** будет фактическим значением.
 
-    ```
+    ```json
     {
         "response": {
             "idleTimeout": 900,
@@ -161,50 +161,50 @@
 
 Вы должны получить ответ со списком деталей, которые есть у контроллера для девяти сетевых устройств в сети. Здесь показан ответ для первого устройства.
 
-    ```json
-    {
-        "response": [
-            {
-                "collectionStatus": "Managed",
-                "connectedInterfaceName": [
-                    "GigabitEthernet0/0/0",
-                    "GigabitEthernet0",
-                    "FastEthernet0"
-                ],
-                "connectedNetworkDeviceIpAddress": [
-                    "192.168.101.1",
-                    "192.168.101.254",
-                    "192.168.101.100"
-                ],
-                "connectedNetworkDeviceName": [
-                    "R1",
-                    "NetworkController",
-                    "Example Server"
-                ],
-                "errorDescription": "",
-                "globalCredentialId": "53046ecc-88c3-49f6-9626-ca8ab9db6725",
-                "hostname": "SWL1",
-                "id": "CAT1010BT47-uuid",
-                "interfaceCount": "29",
-                "inventoryStatusDetail": "Managed",
-                "lastUpdateTime": "6",
-                "lastUpdated": "2020-06-11 22:55:51",
-                "macAddress": "000C.CF42.2B11",
-                "managementIpAddress": "192.168.101.2",
-                "platformId": "3650",
-                "productId": "3650-24PS",
-                "reachabilityFailureReason": "",
-                "reachabilityStatus": "Reachable",
-                "serialNumber": "CAT1010BT47-",
-                "softwareVersion": "16.3.2",
-                "type": "MultiLayerSwitch",
-                "upTime": "4 hours, 55 minutes, 11 seconds"
-            },
-    <output omitted>
-        ],
-        "version": "1.0"
-    }
-    ```
+```json
+{
+    "response": [
+        {
+            "collectionStatus": "Managed",
+            "connectedInterfaceName": [
+                "GigabitEthernet0/0/0",
+                "GigabitEthernet0",
+                "FastEthernet0"
+            ],
+            "connectedNetworkDeviceIpAddress": [
+                "192.168.101.1",
+                "192.168.101.254",
+                "192.168.101.100"
+            ],
+            "connectedNetworkDeviceName": [
+                "R1",
+                "NetworkController",
+                "Example Server"
+            ],
+            "errorDescription": "",
+            "globalCredentialId": "53046ecc-88c3-49f6-9626-ca8ab9db6725",
+            "hostname": "SWL1",
+            "id": "CAT1010BT47-uuid",
+            "interfaceCount": "29",
+            "inventoryStatusDetail": "Managed",
+            "lastUpdateTime": "6",
+            "lastUpdated": "2020-06-11 22:55:51",
+            "macAddress": "000C.CF42.2B11",
+            "managementIpAddress": "192.168.101.2",
+            "platformId": "3650",
+            "productId": "3650-24PS",
+            "reachabilityFailureReason": "",
+            "reachabilityStatus": "Reachable",
+            "serialNumber": "CAT1010BT47-",
+            "softwareVersion": "16.3.2",
+            "type": "MultiLayerSwitch",
+            "upTime": "4 hours, 55 minutes, 11 seconds"
+        },
+<output omitted>
+    ],
+    "version": "1.0"
+}
+```
 
 **Шаг 3. Дублируйте запрос GET и измените его для всех хостов в сети.**
 
