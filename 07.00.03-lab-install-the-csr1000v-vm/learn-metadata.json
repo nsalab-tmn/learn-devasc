@@ -1,0 +1,30 @@
+{
+    "title": "Лабораторная работа. Установка ВМ CSR1000v",
+	"shortName": "lab-7.0.3",
+    "materialType": "lab",
+    "description": "В этой лабораторной работе вы установите маршрутизатор облачных служб CSR1000v. Это программный виртуальный маршрутизатор Cisco, развернутый на экземпляре виртуальной машины (ВМ) на серверном оборудовании x86. Когда Cisco CSR 1000v развертывается на виртуальной машине, программное обеспечение Cisco IOS XE функционирует так, как если бы оно было развернуто на традиционной аппаратной платформе Cisco. В зависимости от образа программного обеспечения Cisco IOS XE можно настроить различные функции.",
+    "difficulty": 1,
+    "duration": "PT0H22M",
+    "tags": [
+        "Cisco",
+        "Devnet"
+    ],
+    "credentialsSchema": {
+        "userName": {
+            "title": "Имя пользователя",
+            "source": "learn_user"
+        },
+        "password": {
+            "title": "Пароль",
+            "source": "learn_password"
+        },
+        "consoleURL": {
+            "title": "Адрес портала",
+            "value": "https://portal.skillscloud.company"
+        }
+    },
+    "skills": {},
+    "testProjectPath": "./README.md",
+	"deploymentPath": "deploy",
+    "assetsPath": "assets"
+}
