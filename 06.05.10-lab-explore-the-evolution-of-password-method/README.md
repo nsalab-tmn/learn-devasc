@@ -61,22 +61,22 @@
 
 В файле **password-evolution.py** добавьте следующий код. Обратите внимание на команду **db_name = 'test.db'**. Это база данных SQL (sqlite3), в которой хранятся имена пользователей и пароли, которые вы будете создавать.
 
-    ```
-    import pyotp    #generates one-time passwords
-    import sqlite3  #database for username/passwords
-    import hashlib  #secure hashes and message digests
-    import uuid     #for creating universally unique identifiers
-    from flask import Flask, request
-    app = Flask(__name__) #Be sure to use two underscores before and after "name"
+```python
+import pyotp    #generates one-time passwords
+import sqlite3  #database for username/passwords
+import hashlib  #secure hashes and message digests
+import uuid     #for creating universally unique identifiers
+from flask import Flask, request
+app = Flask(__name__) #Be sure to use two underscores before and after "name"
 
-    db_name = 'test.db'
-    ```
+db_name = 'test.db'
+```
 
 **Шаг 3. Создайте локальную веб-службу.**
 
 1.  Затем добавьте в файл следующий код Flask, чтобы создать первую фразу веб-контента по корневому пути. Когда пользователь переходит по URL-адресу (корневой каталог), вывод оператора return будет отображаться в браузере.
 
-    ```
+    ```python
     @app.route('/')
     def index():
         return 'Welcome to the hands-on lab for an evolution of password systems!'
@@ -84,7 +84,7 @@
 
 1.  Добавьте в файл следующий код, чтобы создать локальную веб-службу на порту 5000 с самозаверяющим сертификатом TLS. Параметр **ssl_context=’adhoc’** позволяет запускать приложение по HTTPS без использования сертификатов или при использовании самозаверяющего сертификата. Обязательно используйте два символа подчеркивания до и после **name** и **main**.
 
-    ```
+    ```python
     if __name__ == '__main__':
         app.run(host='0.0.0.0', port=5000, ssl_context='adhoc')
     ```
@@ -124,10 +124,10 @@
 
 Удалите следующие строки из файла python **password-evolution.py**. Вы добавите этот код позже.
 
-    ```
-    if __name__ == '__main__':
-        app.run(host='0.0.0.0', port=5000, ssl_context='adhoc')
-    ```
+```python
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000, ssl_context='adhoc')
+```
 
 **Шаг 2. Настройте сервер для хранения учетных данных.**
 
