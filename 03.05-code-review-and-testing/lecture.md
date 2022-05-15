@@ -297,4 +297,4 @@ test_sample_app.py .                                                       [100%
 * Часть 2: Изучите параметры в среде unittest
 * Часть 3: Тестирование функции Python с помощью unittest
 
-[Перейти к лабораторной работе](../03.05.07-lab-create-python-unit-test/README.md)
+[Создание модульного теста Python](../03.05.07-lab-create-python-unit-test/README.md)

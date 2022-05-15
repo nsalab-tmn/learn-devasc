@@ -63,7 +63,7 @@ API веб-службы REST (REST API) - это программный инте
 * Часть 5: Обновление приложения MapQuest Directions с дополнительными функциями
 * Часть 6: Проверка полной функциональности приложения
 
-Интегрируйте REST API в приложение Python
+[Интегрируйте REST API в приложение Python](../04.09.02-lab-investigate-a-rest-api-in-a-python-application/README.md)
 
 <!-- 4.9.3 -->
 <!-- quiz -->

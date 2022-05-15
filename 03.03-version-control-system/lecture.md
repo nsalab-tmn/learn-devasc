@@ -605,4 +605,4 @@ index 09b4f0c..b1978ca 100644
 * Часть 6: Обработка конфликтов слияния
 * Часть 7: интеграция Git с GitHub
 
-[Перейти к лабораторной работе](../03.03.11-lab-software-version-control-with-git/README.md)
+[Контроль версий программного обеспечения с помощью Git](../03.03.11-lab-software-version-control-with-git/README.md)

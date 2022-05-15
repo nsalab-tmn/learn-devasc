@@ -400,4 +400,4 @@ Service B  Idle
 * Часть 3: Разбор JSON в Python
 * Часть 4: Разбор YAML в Python
 
-[Перейти к лабораторной работе](../03.06.06-lab-parse-different-data-types-with-python/README.md)
+[Анализ различных типов данных с помощью Python](../03.06.06-lab-parse-different-data-types-with-python/README.md)

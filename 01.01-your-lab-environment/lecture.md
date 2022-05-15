@@ -17,4 +17,4 @@
 * Часть 3: Создание учетных записей лабораторной среды
 * Часть 4. Установка Webex Teams на свое устройство
 
-[Перейти к лабораторной работе](../01.01.02-lab-install-the-virtual-machine-lab-environment/README.md)
+[Установка виртуальной лабораторной среды](../01.01.02-lab-install-the-virtual-machine-lab-environment/README.md)
