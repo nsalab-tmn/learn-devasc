@@ -361,3 +361,5 @@ Content-Type: application/yang-data+json
 * Часть 5. Использование почтальона для отправки запроса PUT
 * Часть 6. Использование скрипта Python для отправки запросов GET
 * Часть 7. Использование сценария Python для отправки запроса PUT
+
+[Использование RESTCONF для доступа к устройству IOS XE](../08.03.07-lab-use-restconf-to-access-an-ios-xe-devices/README.md)
