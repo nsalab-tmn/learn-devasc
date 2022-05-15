@@ -384,6 +384,10 @@ devasc@labvm:~$
 * Часть 3: Устранение неполадок R1
 * Часть 4: Устранение неполадок DNS
 
+[Устранение распространенных сетевых проблем (pdf)](../05.06.06-lab-troubleshoot-common-network-problems/asset/5.6.6-packet-tracer---troubleshoot-common-network-problems-ru.pdf)
+[Устранение распространенных сетевых проблем (pka)](../05.06.06-lab-troubleshoot-common-network-problems/asset/5.6.6-packet-tracer---troubleshoot-common-network-problems-ru.pka)
+[Устранение распространенных сетевых проблем (md)](../05.06.06-lab-troubleshoot-common-network-problems/README.md)
+
 <!-- 5.6.7 -->
 ## Лабораторная работа - Инструменты устранения неполадок сети
 

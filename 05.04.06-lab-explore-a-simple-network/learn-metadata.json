@@ -1,0 +1,30 @@
+{
+    "title": "Packet Tracer – Изучение простой сети",
+	"shortName": "lab-5.4.6",
+    "materialType": "lab",
+    "description": "Packet Tracer — отличный инструмент для построения и тестирования сетей и сетевого оборудования. Как разработчику важно, чтобы вы были знакомы с сетевыми устройствами и тем, как они взаимодействуют друг с другом. Простая сеть в этом упражнении Packet Tracer предварительно настроена, чтобы дать вам возможность исследовать устройства.",
+    "difficulty": 1,
+    "duration": "PT0H22M",
+    "tags": [
+        "Cisco",
+        "Devnet"
+    ],
+    "credentialsSchema": {
+        "userName": {
+            "title": "Имя пользователя",
+            "source": "learn_user"
+        },
+        "password": {
+            "title": "Пароль",
+            "source": "learn_password"
+        },
+        "consoleURL": {
+            "title": "Адрес портала",
+            "value": "https://portal.skillscloud.company"
+        }
+    },
+    "skills": {},
+    "testProjectPath": "./README.md",
+	"deploymentPath": "deploy",
+    "assetsPath": "assets"
+}
