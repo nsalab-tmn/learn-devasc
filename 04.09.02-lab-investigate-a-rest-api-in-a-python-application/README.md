@@ -423,8 +423,8 @@ devasc@labvm:~/labs/devnet-src/mapquest$
 1.  Дополнительные десятичные разряды для Километров и Использованного топлива бесполезны. Используйте аргумент формата "{:.2f}". Для форматирования значений с плавающей запятой до двух десятичных знаков перед преобразованием их в строковые значения, как показано ниже. Каждый оператор должен быть на отдельной строке.
 
     ```python
-        print("Kilometers:      " + str("{:.2f}".format(json_data["route"]["distance"])*1.61)))
-        print("Fuel Used (Ltr): " + str("{:.2f}".format(json_data["route"]["fuelUsed"])*3.78)))
+        print("Kilometers:      " + str("{:.2f}".format(json_data["route"]["distance"])*1.61))
+        print("Fuel Used (Ltr): " + str("{:.2f}".format(json_data["route"]["fuelUsed"])*3.78))
     ```
 
 **Шаг 2. Протестируйте функциональность синтаксического анализа и форматирования.**
