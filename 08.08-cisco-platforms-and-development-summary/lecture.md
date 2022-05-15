@@ -81,7 +81,9 @@ Cisco предоставляет большой портфель техноло�
 * Часть 6. Использование контроллера SDN для настройки сетевых параметров
 
 [Сравнение использования CLI и контроллера SDN для управления сетью (pdf)](../08.08.02-lab-compare-cli-and-sdn-controller-network-management/asset/8.8.2-packet-tracer---compare-cli-and-sdn-controller-network-management-ru.pdf)
+
 [Сравнение использования CLI и контроллера SDN для управления сетью (pka)](../08.08.02-lab-compare-cli-and-sdn-controller-network-management/asset/8.8.2-packet-tracer---compare-cli-and-sdn-controller-network-management-ru.pka)
+
 [Сравнение использования CLI и контроллера SDN для управления сетью (md)](../08.08.02-lab-compare-cli-and-sdn-controller-network-management/README.md)
 
 <!-- 8.8.3 -->
@@ -99,7 +101,9 @@ Cisco предоставляет большой портфель техноло�
 * Часть 6. Отправка запросов REST внутри Packet Tracer
 
 [Реализация API REST с помощью контроллера SDN ()](../08.08.03-lab-implement-rest-apis-with-an-sdn-controller/asset/8.8.3-packet-tracer---implement-rest-apis-with-an-sdn-controller-ru.pdf)
+
 [Реализация API REST с помощью контроллера SDN ()](../08.08.03-lab-implement-rest-apis-with-an-sdn-controller/asset/8.8.3-packet-tracer---implement-rest-apis-with-an-sdn-controller-ru.pka)
+
 [Реализация API REST с помощью контроллера SDN ()](../08.08.03-lab-implement-rest-apis-with-an-sdn-controller/README.md)
 
 <!-- 8.8.4 -->

@@ -213,5 +213,7 @@ Packet Tracer - отличный инструмент для построени�
 * Часть 4: Изучите списки доступа межсетевого экрана
 
 [Исследование простой сети (pdf)](../05.04.06-lab-explore-a-simple-network/asset/5.4.6-packet-tracer---explore-a-simple-network-ru.pdf)
+
 [Исследование простой сети (pka)](../05.04.06-lab-explore-a-simple-network/asset/5.4.6-packet-tracer---explore-a-simple-network-ru.pka)
+
 [Исследование простой сети (md)](../05.04.06-lab-explore-a-simple-network/README.md)

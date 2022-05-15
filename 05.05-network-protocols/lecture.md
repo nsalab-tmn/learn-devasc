@@ -449,5 +449,7 @@ PAT работает следующим образом. И хост B, и хос
 * Часть 8: Настройка FTP
 
 [Изучение сетевых протоколов (pdf)](../05.05.07-lab-explore-network-protocols/asset/5.5.7-packet-tracer---explore-network-protocols-ru.pdf)
+
 [Изучение сетевых протоколов (pka)](../05.05.07-lab-explore-network-protocols/asset/5.5.7-packet-tracer---explore-network-protocols-ru.pka)
+
 [Изучение сетевых протоколов (md)](../05.05.07-lab-explore-network-protocols/README.md)
