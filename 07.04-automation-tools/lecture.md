@@ -482,6 +482,7 @@ ansible-playbook -i staging-servers.cfg main.yml -vvvv
 * Часть 4: Используйте Ansible для установки Apache на веб-серверы
 * Часть 5: Добавьте параметры в свой Ansible Playbook для веб-серверов Apache
 
+[Использование Ansible для автоматизации установки веб-сервера](../07.04.08-labs-use-ansible-to-automate-installing-a-web-server/README.md)
 
 <!-- 7.4.9 -->
 ## Puppet
