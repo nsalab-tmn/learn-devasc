@@ -78,7 +78,7 @@ Starting Location: quit
 
 В этой части вы создадите сценарий Python для отправки URL-запроса в API маршрутов MapQuest. Затем вы протестируете свой вызов API. На протяжении оставшейся части этой лабораторной работы вы будете строить сценарий по частям, каждый раз сохраняя файл под новым именем. Это поможет вам изучить части приложения, а также предоставит вам серию скриптов, к которым вы можете вернуться, если у вас возникнут какие-либо проблемы в текущей версии вашего приложения.
 
-**Шаг1. Создайте новый файл в VS Code.**
+**Шаг 1. Создайте новый файл в VS Code.**
 
 Вы можете использовать любые инструменты, которые хотите ввести в команды Python, и выполнить код Python. Однако в этой лабораторной работе будет продемонстрировано построение приложения в VS Code.
 
@@ -218,7 +218,7 @@ Starting Location: quit
 
 1.  Сохраните и запустите ваш скрипт **mapquest_parse-json_2.py** и убедитесь, что он работает. При необходимости устраните неполадки в коде. Вы должны получить результат, подобный следующему. Обратите внимание, что ваш ключ встроен в URL-запрос.
 
-    ```python
+    ```
     devasc@labvm:~/labs/devnet-src/mapquest$ python3 mapquest_parse-json_2.py
     URL: https://www.mapquestapi.com/directions/v2/route?key=fZadaFOY22VIEEemZcBFfxl5vjSXIPpZ&from=Washington%2C+D.C.&to=Baltimore%2C+Md
     API Status: 0 = A successful route call.
@@ -256,20 +256,20 @@ Starting Location: quit
 
 Запустите свой скрипт **mapquest_parse-json_3.py** и убедитесь, что он работает. При необходимости устраните неполадки в коде. Вы должны получить результат, аналогичный показанному ниже. Чтобы завершить программу, нажмите **Ctrl+C**. Вы получите ошибку **KeyboardInterrupt**, как показано в выводе ниже. Чтобы остановить приложение более изящно, на следующем шаге вы добавите функцию выхода.
 
-    ```python
-    devasc@labvm:~/labs/devnet-src/mapquest$ python3 mapquest_parse-json_3.py
-    Starting Location: Washington, D.C.
-    Destination: Baltimore, Md
-    URL: https://www.mapquestapi.com/directions/v2/route?key=fZadaFOY22VIEEemZcBFfxl5vjSXIPpZ&from=Washington%2C+D.C.&to=Baltimore%2C+Md
-    API Status: 0 = A successful route call.
+```
+devasc@labvm:~/labs/devnet-src/mapquest$ python3 mapquest_parse-json_3.py
+Starting Location: Washington, D.C.
+Destination: Baltimore, Md
+URL: https://www.mapquestapi.com/directions/v2/route?key=fZadaFOY22VIEEemZcBFfxl5vjSXIPpZ&from=Washington%2C+D.C.&to=Baltimore%2C+Md
+API Status: 0 = A successful route call.
 
-    Starting Location: ^CTraceback (most recent call last):
-    File "mapquest_parse-json_3.py", line 9, in <module>
-        orig = input("Starting Location: ")
-    KeyboardInterrupt
+Starting Location: ^CTraceback (most recent call last):
+File "mapquest_parse-json_3.py", line 9, in <module>
+    orig = input("Starting Location: ")
+KeyboardInterrupt
 
-    devasc@labvm:~/labs/devnet-src/mapquest$
-    ```
+devasc@labvm:~/labs/devnet-src/mapquest$
+```
 
 **Шаг 9. Добавьте в приложение функцию выхода.**
 
@@ -326,7 +326,7 @@ devasc@labvm:~/labs/devnet-src/mapquest$
 1.  Вставьте URL-адрес в адресное поле браузера Chromium.
 2.  Сверните данные JSONView, выбрав прочерк "-" перед **route**, вы увидите, что есть два корневых словаря: **route** и **info**.
 
-    ```json
+    ```
     {
     - route:{
         hasTollRoad: false,
@@ -336,7 +336,7 @@ devasc@labvm:~/labs/devnet-src/mapquest$
 
     Вы увидите, что есть два корневых словаря: **route** и **info**. Обратите внимание, что **info** содержит пару ключ/значение **statuscode**, используемую в вашем коде.
 
-    ```json
+    ```
     {
     + route: {},
     - info: {
@@ -453,7 +453,7 @@ devasc@labvm:~/labs/devnet-src/mapquest$
 1.  Теперь вы готовы отобразить пошаговые инструкции от места начала до места назначения. Вернитесь в браузер Chromium, где ранее вы просматривали вывод в JSONView. Если вы закрыли браузер, скопируйте URL-адрес из последнего запуска программы и вставьте его в адресную строку браузера.
 2.  Найдите в словаре **route** список **legs**. Список **legs** включает один большой словарь с большей частью данных JSON. Найдите список **maneuvers** и сверните каждый из семи словарей внутри, как показано ниже (щелкните знак «-» **минус**, чтобы переключить его на знак «+» **плюс**). Если вы используете разные локации, у вас, вероятно, будет другое количество словарей **maneuvers**.
 
-    ```json
+    ```
     - legs: [
         - {
             hasTollRoad: false,
@@ -493,7 +493,7 @@ devasc@labvm:~/labs/devnet-src/mapquest$
 
 1.  Разверните первый словарь в списке **maneuvers**. Каждый словарь содержит ключ **narrative** со значением, например “Start out going north...” (Начать с севера ...), как показано ниже. Вам необходимо проанализировать данные JSON, чтобы извлечь значение ключа **narrative** для отображения внутри вашего приложения.
 
-    ```json
+    ```
     - legs: [
         - {
         hasTollRoad: false,
