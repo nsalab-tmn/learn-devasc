@@ -243,4 +243,4 @@ node {
 * Часть 7. Использование Jenkins для тестирования сборки
 * Часть 8: Создание конвейера в Jenkins
 
-Создайте конвейер CI-CD с помощью Jenkins
+[Создайте конвейер CI-CD с помощью Jenkins](../06.03.06-lab-build-a-ci-cd-pipeline-using-jenkins/README.md)
