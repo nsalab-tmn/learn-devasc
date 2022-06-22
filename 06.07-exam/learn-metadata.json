@@ -319,79 +319,113 @@
             "question": "Какое утверждение характерно для угрозы нарушенного контроля доступа к веб-приложениям?"
         },
         {
-            "answerType": "singleChoice",
-            "answers": [
+            "answerType": "matching",
+            "options": [
                 {
-                    "answer": "",
-                    "comment": "",
-                    "correct": true
+                    "option": "Облака, которые размещают вычисления как можно ближе к пользователю.",
+                    "match": "1"
                 },
                 {
-                    "answer": "",
-                    "comment": "",
-                    "correct": false
+                    "option": "Облака состоят из двух или более облаков. Однако каждая часть остается отличительным и отдельным объектом. Оба они связаны с использованием единой архитектуры.",
+                    "match": "2"
                 },
                 {
-                    "answer": "",
-                    "comment": "",
-                    "correct": false
-                },
-                {
-                    "answer": "",
-                    "comment": "",
-                    "correct": false
+                    "option": "Облака, предназначенные для конкретной организации или объекта, например правительства. Их можно настроить, используя частную сеть организации.",
+                    "match": "3"
                 }
             ],
-            "question": ""
-        },
-        {
-            "answerType": "singleChoice",
             "answers": [
                 {
-                    "answer": "",
-                    "comment": "",
-                    "correct": true
+                    "answer": "граничные",
+                    "match": "1"
                 },
                 {
-                    "answer": "",
-                    "comment": "",
-                    "correct": false
+                    "answer": "гибридные",
+                    "match": "2"
                 },
                 {
-                    "answer": "",
-                    "comment": "",
-                    "correct": false
+                    "answer": "частные",
+                    "match": "3"
                 },
                 {
-                    "answer": "",
-                    "comment": "",
-                    "correct": false
+                    "answer": "общедоступные",
+                    "match": "0"
                 }
             ],
-            "question": ""
+            "question": "Сопоставьте облачную модель с ее описанием. (Не все варианты используются.)"
         },
         {
-            "answerType": "singleChoice",
+            "answerType": "matching",
+            "options": [
+                {
+                    "option": "содержит код, проверенный несколько раз и не содержащий ошибок",
+                    "match": "1"
+                },
+                {
+                    "option": "включает автоматизированные инструменты, такие как Jenkins, CircleCI или Travis CI, и часто интегрируется с системой контроля версий.",
+                    "match": "2"
+                },
+                {
+                    "option": "где происходит кодирование",
+                    "match": "3"
+                },
+                {
+                    "option": "структурно максимально приближен к реальной производственной среде",
+                    "match": "0"
+                }
+            ],
             "answers": [
                 {
-                    "answer": "",
-                    "comment": "",
-                    "correct": true
+                    "answer": "производство",
+                    "match": "1"
                 },
                 {
-                    "answer": "",
-                    "comment": "",
-                    "correct": false
+                    "answer": "тестирование",
+                    "match": "2"
                 },
                 {
-                    "answer": "",
-                    "comment": "",
-                    "correct": false
+                    "answer": "разработка",
+                    "match": "3"
+                }
+            ],
+            "question": "Сопоставьте среды в четырехуровневой структуре среды разработки с описанием."
+        },
+        {
+            "answerType": "matching",
+            "options": [
+                {
+                    "option": "объясняет способы смягчения проблем с безопасностью команд в веб-приложениях.",
+                    "match": "1"
                 },
                 {
-                    "answer": "",
-                    "comment": "",
-                    "correct": false
+                    "option": "ищет известные уязвимости в коде",
+                    "match": "2"
+                },
+                {
+                    "option": "упрощает процесс тестирования кода",
+                    "match": "3"
+                },
+                {
+                    "option": "общие правила обнаружения атак, используемые с брандмауэрами веб-приложений",
+                    "match": "4"
+                }
+            ],
+            "answers": [
+                {
+                    "answer": "Cheat Sheet Series",
+                    "match": "1"
+                },
+                {
+                    "answer": "Проверка зависимостей",
+                    "match": "2"
+                },
+                {
+                    "answer": "DefectDojo",
+                    "match": "3"
+                },
+                {
+                    "answer": "Базовый набор правил ModSecurity",
+                    "match": "4"
                 }
             ],
             "question": ""

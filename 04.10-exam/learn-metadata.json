@@ -443,30 +443,44 @@
             "question": "![](./assets/4.10.png)\nПосмотрите на рисунок. Сетевой администратор использует скрипт Python для отправки запроса REST API. Какова цель строки кода ``resp = request.get(url, verify = False)``?"
         },
         {
-            "answerType": "singleChoice",
-            "answers": [
+            "answerType": "matching",
+            "options": [
                 {
-                    "answer": "",
-                    "comment": "",
-                    "correct": true
+                    "option": "READ",
+                    "match": "1"
                 },
                 {
-                    "answer": "",
-                    "comment": "",
-                    "correct": false
+                    "option": "CREATE",
+                    "match": "2"
                 },
                 {
-                    "answer": "",
-                    "comment": "",
-                    "correct": false
+                    "option": "DELETE",
+                    "match": "3"
                 },
                 {
-                    "answer": "",
-                    "comment": "",
-                    "correct": false
+                    "option": "UPDATE",
+                    "match": "4"
                 }
             ],
-            "question": ""
+            "answers": [
+                {
+                    "answer": "GET",
+                    "match": "1"
+                },
+                {
+                    "answer": "POST",
+                    "match": "2"
+                },
+                {
+                    "answer": "DELETE",
+                    "match": "3"
+                },
+                {
+                    "answer": "PUT/PATCH",
+                    "match": "4"
+                }
+            ],
+            "question": "Сопоставьте метод RESTful API с функцией CRUD."
         }
     ],
     "skills": {},
