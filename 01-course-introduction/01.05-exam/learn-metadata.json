@@ -1,8 +1,9 @@
 {
+    "title": "Экзамен: Введение в курс",
     "description": "Нажмите ``Начать прохождение`` для отображения вопросов и выберите самый подходящий ответ",
     "difficulty": 1,
     "duration": "PT0H30M",
-    "materialType": "test",
+    "materialType": "test-exam",
     "passingScore": 100,
     "questions": [
         {
@@ -29,18 +30,18 @@
                     "correct": false
                 }
             ],
-            "question": "Системный администратор запускает команду **apt-get update** в операционной системе Linux. Какова цель этой команды?"
+            "question": "Системный администратор запускает команду `apt-get update` в операционной системе Linux. Какова цель этой команды?"
         },
         {
             "answerType": "singleChoice",
             "answers": [
                 {
-                    "answer": "Все активные интерфейсы будут отображать информацию.",
+                    "answer": "Отобразится информация только об активных интерфейсах.",
                     "comment": "Команда **ifconfig** с модификатором **-a** предоставит информацию обо всех сетевых интерфейсах, даже если они отключены.",
                     "correct": false
                 },
                 {
-                    "answer": "И активные, и неактивные интерфейсы будут отображать информацию.",
+                    "answer": "Отобразится информация об активных и неактивных интерфейсах.",
                     "comment": "Команда **ifconfig** с модификатором **-a** предоставит информацию обо всех сетевых интерфейсах, даже если они отключены.",
                     "correct": true
                 },
@@ -55,7 +56,7 @@
                     "correct": false
                 }
             ],
-            "question": "Сетевому инженеру необходимо проверить состояние всех сетевых интерфейсов сервера под управлением операционной системы Linux. Инженер вводит команду **ifconfig -a**. Каков результат этой команды?"
+            "question": "Сетевому инженеру необходимо проверить состояние всех сетевых интерфейсов сервера под управлением операционной системы Linux. Инженер вводит команду `ifconfig -a`. Каков результат этой команды?"
         },
         {
             "answerType": "singleChoice",
@@ -81,7 +82,7 @@
                     "correct": true
                 }
             ],
-            "question": "Системный администратор пытается определить, что заставляет компьютер работать медленнее, чем обычно. Администратор выдает команду **ps**. Что показывает эта команда?"
+            "question": "Системный администратор пытается определить, что заставляет компьютер работать медленнее, чем обычно. Администратор выдает команду `ps`. Что показывает эта команда?"
         },
         {
             "answerType": "singleChoice",
@@ -92,7 +93,7 @@
                     "correct": false
                 },
                 {
-                    "answer": "используйте команду **sudo**",
+                    "answer": "использовать команду **sudo**",
                     "comment": "",
                     "correct": true
                 },
@@ -107,7 +108,7 @@
                     "correct": false
                 }
             ],
-            "question": "Администратор Linux пытается использовать терминал для настройки сетевой карты на компьютере. Администратор получает сообщение о том, что у администратора нет необходимых прав для выполнения настройки. Что нужно сделать перед командой конфигурации?"
+            "question": "Администратор Linux пытается использовать терминал для настройки сетевой карты на компьютере. Администратор получает сообщение о том, что у него нет необходимых прав для выполнения настройки. Что нужно сделать перед командой конфигурации?"
         },
         {
             "answerType": "singleChoice",
@@ -133,7 +134,7 @@
                     "correct": false
                 }
             ],
-            "question": "Пользователь вводит команду Linux, и отображается результат:\n```\ntotal 40\ndrwxr-xr-x 2 devasc devasc 4096 Mar 30 21:25 Desktop\ndrwxr-xr-x 2 devasc devasc 4096 Apr 15 19:09 Documents\ndrwxr-xr-x 2 devasc devasc 4096 Apr 15 19:09 Downloads\ndrwxr-xr-x 5 devasc devasc 4096 Mar 30 21:21 labs\ndrwxr-xr-x 2 devasc devasc 4096 Apr 15 19:09 Music\ndrwxr-xr-x 2 devasc devasc 4096 Apr 15 19:09 Pictures\ndrwxr-xr-x 2 devasc devasc 4096 Apr 15 19:09 Public\ndrwxr-xr-x 5 devasc devasc 4096 Mar 30 21:24 snap\ndrwxr-xr-x 2 devasc devasc 4096 Apr 15 19:09 Templates\ndrwxr-xr-x 2 devasc devasc 4096 Apr 15 19:09 Videos\ndevasc@labvm:~$\n```\nКакая команда Linux используется для отображения содержимого текущего каталога, как показано?"
+            "question": "Пользователь вводит команду Linux, и отображается результат:\n\n```\ntotal 40\ndrwxr-xr-x 2 devasc devasc 4096 Mar 30 21:25 Desktop\ndrwxr-xr-x 2 devasc devasc 4096 Apr 15 19:09 Documents\ndrwxr-xr-x 2 devasc devasc 4096 Apr 15 19:09 Downloads\ndrwxr-xr-x 5 devasc devasc 4096 Mar 30 21:21 labs\ndrwxr-xr-x 2 devasc devasc 4096 Apr 15 19:09 Music\ndrwxr-xr-x 2 devasc devasc 4096 Apr 15 19:09 Pictures\ndrwxr-xr-x 2 devasc devasc 4096 Apr 15 19:09 Public\ndrwxr-xr-x 5 devasc devasc 4096 Mar 30 21:24 snap\ndrwxr-xr-x 2 devasc devasc 4096 Apr 15 19:09 Templates\ndrwxr-xr-x 2 devasc devasc 4096 Apr 15 19:09 Videos\ndevasc@labvm:~$\n```\nКакая команда Linux используется для отображения содержимого текущего каталога, как показано?"
         },
         {
             "answerType": "singleChoice",
@@ -164,7 +165,7 @@
                     "correct": false
                 }
             ],
-            "question": "Пользователь выполняет ряд команд Linux, как показано на рисунке.\n```\n(опущено)$ pwd\n/home/devasc/labs/ansible/backups\n(опущено)$ cd ../..\n```\nКакой каталог является текущим после ввода команды **cd**?"
+            "question": "Пользователь выполняет ряд команд Linux, как показано на рисунке.\n\n```\n(опущено)$ pwd\n/home/devasc/labs/ansible/backups\n(опущено)$ cd ../..\n```\nКакой каталог является текущим после ввода команды **cd**?"
         },
         {
             "answerType": "multiChoice",
@@ -195,7 +196,7 @@
                     "correct": false
                 }
             ],
-            "question": "Пользователь вводит команду Linux **ls -l myfile.sh**, чтобы проверить права доступа к файлу myfile.sh.\n```\ndevasc@labvm:~/Documents$ ls -l myfile.sh\n-rwxr-xr-- 1 self test 15 Mar 30 21:24 myfile.sh\n```\nКакие два утверждения описывают разрешения, назначенные файлу? (Выберите два.)"
+            "question": "Пользователь вводит команду Linux `ls -l myfile.sh`, чтобы проверить права доступа к файлу myfile.sh.\n\n```\ndevasc@labvm:~/Documents$ ls -l myfile.sh\n-rwxr-xr-- 1 self test 15 Mar 30 21:24 myfile.sh\n```\nКакие два утверждения описывают разрешения, назначенные файлу? (Выберите два.)"
         },
         {
             "answerType": "singleChoice",
@@ -221,7 +222,7 @@
                     "correct": false
                 }
             ],
-            "question": "Системный администратор Linux ищет в файле passwd любое имя пользователя, начинающееся с цифры. Какую команду **grep** должен использовать администратор?"
+            "question": "Системный администратор Linux ищет в файле **passwd** любое имя пользователя, начинающееся с цифры. Какую команду `grep` должен использовать администратор?"
         },
         {
             "answerType": "singleChoice",
@@ -247,7 +248,7 @@
                     "correct": false
                 }
             ],
-            "question": "Пользователь вводит команды, как показано. Каков результат после ввода команды **mv**?\n```\ndevasc@labvm:~/Documents$ pwd\n/home/devasc/Documents\ndevasc@labvm:~/Documents$ mv myfile.sh ../Desktop/myfile2.sh\n```\n"
+            "question": "Пользователь вводит команды, как показано ниже. Каков результат после ввода команды `mv`?\n\n```\ndevasc@labvm:~/Documents$ pwd\n/home/devasc/Documents\ndevasc@labvm:~/Documents$ mv myfile.sh ../Desktop/myfile2.sh\n```\n"
         },
         {
             "answerType": "singleChoice",
@@ -299,7 +300,7 @@
                     "correct": false
                 }
             ],
-            "question": "Что отображается после ввода следующего кода в интерпретатор Python?\n```\naddition = 22 +10\nprint(addition)\n```\n"
+            "question": "Что отображается после ввода следующего кода в интерпретатор Python?\n\n```\naddition = 22 + 10\nprint(addition)\n```\n"
         },
         {
             "answerType": "singleChoice",
@@ -325,7 +326,7 @@
                     "correct": false
                 }
             ],
-            "question": "Что получится, если ввести следующий код в интерпретатор программы Python?\n```\n[1,2,4,5] + [3,6]\n```\n"
+            "question": "Что получится, если ввести следующий код в интерпретатор программы Python?\n\n```\n[1,2,4,5] + [3,6]\n```\n"
         },
         {
             "answerType": "singleChoice",
@@ -356,7 +357,7 @@
                     "correct": false
                 }
             ],
-            "question": "Студент изучает Python в режиме интерактивного интерпретатора. Учащийся подает команды:\n```\n>>> y=2\n>>> y*3\n6\n>>> 'Test'*y\n```\n"
+            "question": "Студент изучает Python в режиме интерактивного интерпретатора. Учащийся вводит команды:\n\n```\n>>> y=2\n>>> y*3\n6\n>>> 'Test'*y\n```\n"
         },
         {
             "answerType": "singleChoice",
@@ -382,7 +383,7 @@
                     "correct": false
                 }
             ],
-            "question": "Студент, плохо знакомый с Python, работает в режиме интерактивного интерпретатора. Учащийся подает команды:\n```\n>>> devicenames=[\"RT1\", \"RT2\", \"SW1\", \"SW2\"]\n>>> hostnames=devicenames + [\"RT3\", \"SW3\"]\n>>> del hostnames[3]\n>>> hostnames\n```\n"
+            "question": "Студент, плохо знакомый с Python, работает в режиме интерактивного интерпретатора. Учащийся вводит команды:\n\n```\n>>> devicenames=[\"RT1\", \"RT2\", \"SW1\", \"SW2\"]\n>>> hostnames=devicenames + [\"RT3\", \"SW3\"]\n>>> del hostnames[3]\n>>> hostnames\n```\n"
         },
         {
             "answerType": "singleChoice",
@@ -408,7 +409,7 @@
                     "correct": true
                 }
             ],
-            "question": "Студент, плохо знакомый с Python, работает в режиме интерактивного интерпретатора. Учащийся подает команды:\n```\n>>> ipAddress = {\"R1\":\"10.1.1.1\",\"R2\":\"10.2.2.1\",\"R3\":\"10.3.3.1\"}\n```\nКакой тип данных используется для представления переменной ipAddress?"
+            "question": "Студент, плохо знакомый с Python, работает в режиме интерактивного интерпретатора. Учащийся вводит команды:\n\n```\n>>> ipAddress = {\"R1\":\"10.1.1.1\",\"R2\":\"10.2.2.1\",\"R3\":\"10.3.3.1\"}\n```\nКакой тип данных используется для представления переменной ipAddress?"
         },
         {
             "answerType": "singleChoice",
@@ -434,7 +435,7 @@
                     "correct": false
                 }
             ],
-            "question": "Студент, плохо знакомый с Python, работает в режиме интерактивного интерпретатора. Ученик подает команду:\n```\n>>> ipAddress = {\"R1\":\"10.1.1.1\",\"R2\":\"10.2.2.1\",\"R3\":\"10.3.3.1\"}\n```\nКакое выражение Python можно использовать для получения IP-адреса R2?"
+            "question": "Студент, плохо знакомый с Python, работает в режиме интерактивного интерпретатора. Ученик вводит команду:\n\n```\n>>> ipAddress = {\"R1\":\"10.1.1.1\",\"R2\":\"10.2.2.1\",\"R3\":\"10.3.3.1\"}\n```\nКакое выражение Python можно использовать для получения IP-адреса R2?"
         },
         {
             "answerType": "singleChoice",
@@ -460,14 +461,13 @@
                     "correct": false
                 }
             ],
-            "question": "Студент изучает Python и просматривает сценарий Python следующим образом:\n```\naclNum = int(input(\"What is the IPv4 ACL number? \"))\nif aclNum >= 1 and aclNum <= 99:\n     print(\"This is a standard IPv4 ACL.\")\nelif aclNum >=100 and aclNum <= 199:\n     print(\"This is an extended IPv4 ACL.\")\nelse:\n     print(\"This is not a standard or extended IPv4 ACL.\")\n```\nПри каком условии будет ``elif`` будет выполнен?"
+            "question": "Студент изучает Python и просматривает сценарий Python со следующим кодом:\n\n```\naclNum = int(input(\"What is the IPv4 ACL number? \"))\nif aclNum >= 1 and aclNum <= 99:\n     print(\"This is a standard IPv4 ACL.\")\nelif aclNum >=100 and aclNum <= 199:\n     print(\"This is an extended IPv4 ACL.\")\nelse:\n     print(\"This is not a standard or extended IPv4 ACL.\")\n```\nПри каком условии будет будет выполнен ``elif``?"
         }
     ],
     "skills": {},
     "tags": {
         "$ref": "../../material-tags.json"
     },
-    "title": "Экзамен: Модуль 1. Введение в курс",
     "assets": {
         "$ref": "./assets"
     }

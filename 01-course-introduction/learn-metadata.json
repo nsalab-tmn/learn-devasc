@@ -9,22 +9,13 @@
             "$ref": "./01.00-introduction/learn-metadata.json"
         },
         {
-            "$ref": "./01.01-your-lab-environment/learn-metadata.json"
-        },
-        {
             "$ref": "./01.01.02-lab-install-the-virtual-machine-lab-environment/learn-metadata.json"
-        },
-        {
-            "$ref": "./01.02-linux/learn-metadata.json"
         },
         {
             "$ref": "./01.02.02-lab-linux-review/learn-metadata.json"
         },
         {
             "$ref": "./01.02.03-quiz/learn-metadata.json"
-        },
-        {
-            "$ref": "./01.03-python/learn-metadata.json"
         },
         {
             "$ref": "./01.03.03-lab-python-programming-review/learn-metadata.json"

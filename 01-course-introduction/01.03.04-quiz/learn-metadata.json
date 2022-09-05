@@ -1,4 +1,5 @@
 {
+    "title": "Контрольный тест по теме: обзор Python",
     "description": "Нажмите ``Начать прохождение`` для отображения вопросов и выберите самый подходящий ответ",
     "difficulty": 1,
     "duration": "PT0H30M",
@@ -34,7 +35,7 @@
                     "correct": false
                 }
             ],
-            "question": "Студент изучает Python в интерактивном режиме интерпретатора. Он подает команды:\n```\n>>> routers=[]\n>>> switches=[]\n>>> devices=[\"RT1\", \"RT2\", \"RT3\", SW1\", \"SW2\", \"SW3\"]\n>>> devices=devices + [\"RT4\", \"SW4\"]\n>>> for i in devices:\n             if \"R\" in i:\n                    routers.append(i)\n             else: switches.append(i)\n>>> switches\n```\nКаким будет результат?"
+            "question": "Студент изучает Python в интерактивном режиме интерпретатора. Он подает команды:\n\n```\n>>> routers=[]\n>>> switches=[]\n>>> devices=[\"RT1\", \"RT2\", \"RT3\", SW1\", \"SW2\", \"SW3\"]\n>>> devices=devices + [\"RT4\", \"SW4\"]\n>>> for i in devices:\n             if \"R\" in i:\n                    routers.append(i)\n             else: switches.append(i)\n>>> switches\n```\nКаким будет результат?"
         },
         {
             "answerType": "singleChoice",
@@ -65,7 +66,7 @@
                     "correct": false
                 }
             ],
-            "question": "Студент изучает Python в интерактивном режиме интерпретатора. Он подает команды:\n```\n>>> devicenames=[\"RT1\", \"RT2\", \"SW1\", \"SW2\"]\n>>> devicenames[-1]\n```\nКаким будет результат?"
+            "question": "Студент изучает Python в интерактивном режиме интерпретатора. Он подает команды:\n\n```\n>>> devicenames=[\"RT1\", \"RT2\", \"SW1\", \"SW2\"]\n>>> devicenames[-1]\n```\nКаким будет результат?"
         },
         {
             "answerType": "singleChoice",
@@ -117,7 +118,7 @@
                     "correct": false
                 }
             ],
-            "question": "Студент изучает Python в режиме интерактивного интерпретатора. Ученик подает команду:\n```\n>>> type(True)\n```\nКакой тип данных сообщит Python?"
+            "question": "Студент изучает Python в режиме интерактивного интерпретатора. Ученик подает команду:\n\n```\n>>> type(True)\n```\nКакой тип данных сообщит Python?"
         },
         {
             "answerType": "singleChoice",
@@ -150,7 +151,6 @@
     "tags": {
         "$ref": "../../material-tags.json"
     },
-    "title": "Тест на понимание темы: Обзор Python",
     "assets": {
         "$ref": "./assets"
     }
