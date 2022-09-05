@@ -1,0 +1,30 @@
+{
+    "title": "Среда devnet-разработчика",
+    "tags": {
+        "$ref": "../material-tags.json"
+    },
+    "materialType": "course",
+    "materials": [
+        {
+            "$ref": "./02.00-introduction/learn-metadata.json"
+        },
+        {
+            "$ref": "./02.01-devnet-overview/learn-metadata.json"
+        },
+        {
+            "$ref": "./02.02-exploring-devnet-online-resources/learn-metadata.json"
+        },
+        {
+            "$ref": "./02.02.07-lab-explore-devnet-resources/learn-metadata.json"
+        },
+        {
+            "$ref": "./02.03-devnet-developer-environment-summary/learn-metadata.json"
+        },
+        {
+            "$ref": "./02.03.02-quiz/learn-metadata.json"
+        },
+        {
+            "$ref": "./02.04-exam/learn-metadata.json"
+        }
+    ]
+}

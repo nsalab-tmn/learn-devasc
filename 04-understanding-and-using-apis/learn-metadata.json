@@ -1,0 +1,51 @@
+{
+    "title": "Понимание и использование API",
+    "tags": {
+        "$ref": "../material-tags.json"
+    },
+    "materialType": "course",
+    "materials": [
+        {
+            "$ref": "./04.00-introduction/learn-metadata.json"
+        },
+        {
+            "$ref": "./04.01-introducting-apis/learn-metadata.json"
+        },
+        {
+            "$ref": "./04.02-api-design-styles/learn-metadata.json"
+        },
+        {
+            "$ref": "./04.03-api-architectictural-styles/learn-metadata.json"
+        },
+        {
+            "$ref": "./04.04-introduction-to-rest-api/learn-metadata.json"
+        },
+        {
+            "$ref": "./04.05-authenticating-to-a-rest-api/learn-metadata.json"
+        },
+        {
+            "$ref": "./04.05.05-lab-explore-rest-with-api-simulator-and-postman/learn-metadata.json"
+        },
+        {
+            "$ref": "./04.06-api-rate-limit/learn-metadata.json"
+        },
+        {
+            "$ref": "./04.07-working-with-webhooks/learn-metadata.json"
+        },
+        {
+            "$ref": "./04.08-troubleshooting-api-calls/learn-metadata.json"
+        },
+        {
+            "$ref": "./04.09-understanding-and-using-apis-summary/learn-metadata.json"
+        },
+        {
+            "$ref": "./04.09.02-lab-investigate-a-rest-api-in-a-python-application/learn-metadata.json"
+        },
+        {
+            "$ref": "./04.09.03-quiz/learn-metadata.json"
+        },
+        {
+            "$ref": "./04.10-exam/learn-metadata.json"
+        }
+    ]
+}

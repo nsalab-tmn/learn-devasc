@@ -1,30 +1,33 @@
 {
-    "title": "",
-	"shortName": "lab-***",
-    "materialType": "lab",
-    "description": "",
-    "difficulty": 1,
-    "duration": "PT0H22M",
-    "tags": [
-        "Cisco",
-        "Devnet"
-    ],
-    "credentialsSchema": {
-        "userName": {
-            "title": "Имя пользователя",
-            "source": "learn_user"
-        },
-        "password": {
-            "title": "Пароль",
-            "source": "learn_password"
-        },
-        "consoleURL": {
-            "title": "Адрес портала",
-            "value": "https://portal.skillscloud.company"
-        }
+    "title": "Основы автоматизации сетевой инфраструктуры",
+    "tags": {
+        "$ref": "./material-tags.json"
     },
-    "skills": {},
-    "testProjectPath": "./README.md",
-	"deploymentPath": "deploy",
-    "assetsPath": "assets"
+    "materialType": "learning-path",
+    "materials": [
+        {
+            "$ref": "./01-course-introduction/learn-metadata.json"
+        },
+        {
+            "$ref": "./02-the-devnet-developer-environment/learn-metadata.json"
+        },
+        {
+            "$ref": "./03-software-development-and-design/learn-metadata.json"
+        },
+        {
+            "$ref": "./04-understanding-and-using-apis/learn-metadata.json"
+        },
+        {
+            "$ref": "./05-network-fundamentals/learn-metadata.json"
+        },
+        {
+            "$ref": "./06-application-deployment-and-security/learn-metadata.json"
+        },
+        {
+            "$ref": "./07-infrastructure-and-automation/learn-metadata.json"
+        },
+        {
+            "$ref": "./08-cisco-platforms-and-development/learn-metadata.json"
+        }
+    ]
 }

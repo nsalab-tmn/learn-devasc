@@ -1,0 +1,54 @@
+{
+    "title": "Инфраструктура и автоматизация",
+    "tags": {
+        "$ref": "../material-tags.json"
+    },
+    "materialType": "course",
+    "materials": [
+        {
+            "$ref": "./07.00-introduction-to-infrastructure-and-automation/learn-metadata.json"
+        },
+        {
+            "$ref": "./07.00.03-lab-install-the-csr1000v-vm/learn-metadata.json"
+        },
+        {
+            "$ref": "./07.01-automating-infrastructure-with-cisco/learn-metadata.json"
+        },
+        {
+            "$ref": "./07.02-devops-and-sre/learn-metadata.json"
+        },
+        {
+            "$ref": "./07.03-basic-automation-scripting/learn-metadata.json"
+        },
+        {
+            "$ref": "./07.04-automation-tools/learn-metadata.json"
+        },
+        {
+            "$ref": "./07.04.07-lab-use-ansible-to-back-up-and-configure-a-device/learn-metadata.json"
+        },
+        {
+            "$ref": "./07.04.08-labs-use-ansible-to-automate-installing-a-web-server/learn-metadata.json"
+        },
+        {
+            "$ref": "./07.05-infrastructure-as-a-code/learn-metadata.json"
+        },
+        {
+            "$ref": "./07.06-automating-testing/learn-metadata.json"
+        },
+        {
+            "$ref": "./07.06.03-lab-automated-testing-using-pyats-and-genie/learn-metadata.json"
+        },
+        {
+            "$ref": "./07.07-network-simulation/learn-metadata.json"
+        },
+        {
+            "$ref": "./07.08-infrastructure and automation summary/learn-metadata.json"
+        },
+        {
+            "$ref": "./07.08.02-quiz/learn-metadata.json"
+        },
+        {
+            "$ref": "./07.09-exam/learn-metadata.json"
+        }
+    ]
+}

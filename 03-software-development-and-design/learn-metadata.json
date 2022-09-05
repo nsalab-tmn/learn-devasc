@@ -1,0 +1,54 @@
+{
+    "title": "Проектирование и разработка ПО",
+    "tags": {
+        "$ref": "../material-tags.json"
+    },
+    "materialType": "course",
+    "materials": [
+        {
+            "$ref": "./03.00-introduction/learn-metadata.json"
+        },
+        {
+            "$ref": "./03.01-software-development/learn-metadata.json"
+        },
+        {
+            "$ref": "./03.01.12-lab-explore-python-development-tools/learn-metadata.json"
+        },
+        {
+            "$ref": "./03.02-software-design-pattern/learn-metadata.json"
+        },
+        {
+            "$ref": "./03.03-version-control-system/learn-metadata.json"
+        },
+        {
+            "$ref": "./03.03.11-lab-software-version-control-with-git/learn-metadata.json"
+        },
+        {
+            "$ref": "./03.04-coding-basics/learn-metadata.json"
+        },
+        {
+            "$ref": "./03.04.06-lab-explore-python-classes/learn-metadata.json"
+        },
+        {
+            "$ref": "./03.05-code-review-and-testing/learn-metadata.json"
+        },
+        {
+            "$ref": "./03.05.07-lab-create-python-unit-test/learn-metadata.json"
+        },
+        {
+            "$ref": "./03.06-understanding-data-formats/learn-metadata.json"
+        },
+        {
+            "$ref": "./03.06.06-lab-parse-different-data-types-with-python/learn-metadata.json"
+        },
+        {
+            "$ref": "./03.07-software-development-and-design-summary/learn-metadata.json"
+        },
+        {
+            "$ref": "./03.07.02-quiz/learn-metadata.json"
+        },
+        {
+            "$ref": "./03.08-exam/learn-metadata.json"
+        }
+    ]
+}

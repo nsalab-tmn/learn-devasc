@@ -1,0 +1,45 @@
+{
+    "title": "Развертывание приложений и обеспечение безопасности",
+    "tags": {
+        "$ref": "../material-tags.json"
+    },
+    "materialType": "course",
+    "materials": [
+        {
+            "$ref": "./06.00 introduction-to-application-development-and-security/learn-metadata.json"
+        },
+        {
+            "$ref": "./06.01-understanding-deployment-choices with-different models/learn-metadata.json"
+        },
+        {
+            "$ref": "./06.02-creating-and-deploying-a-simple-application/learn-metadata.json"
+        },
+        {
+            "$ref": "./06.02.07-lab-build-a-sample-web-app-in-a-docker-container/learn-metadata.json"
+        },
+        {
+            "$ref": "./06.03-continuous-integration-continuous-deployment-ci-cd/learn-metadata.json"
+        },
+        {
+            "$ref": "./06.03.06-lab-build-a-ci-cd-pipeline-using-jenkins/learn-metadata.json"
+        },
+        {
+            "$ref": "./06.04-networks-and-application-development-and-security/learn-metadata.json"
+        },
+        {
+            "$ref": "./06.05-securing-application/learn-metadata.json"
+        },
+        {
+            "$ref": "./06.05.10-lab-explore-the-evolution-of-password-method/learn-metadata.json"
+        },
+        {
+            "$ref": "./06.06-summary-application-deployment-and-security/learn-metadata.json"
+        },
+        {
+            "$ref": "./06.06.02-quiz/learn-metadata.json"
+        },
+        {
+            "$ref": "./06.07-exam/learn-metadata.json"
+        }
+    ]
+}

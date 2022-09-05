@@ -1,0 +1,60 @@
+{
+    "title": "Платформы Cisco и разработка",
+    "tags": {
+        "$ref": "../material-tags.json"
+    },
+    "materialType": "course",
+    "materials": [
+        {
+            "$ref": "./08.00-introduction-to-cisco-platforms-and-development/learn-metadata.json"
+        },
+        {
+            "$ref": "./08.01-introduction-to-cisco-platforms/learn-metadata.json"
+        },
+        {
+            "$ref": "./08.02-cisco-sdks/learn-metadata.json"
+        },
+        {
+            "$ref": "./08.03-understanding-network-programmability-and-device-models/learn-metadata.json"
+        },
+        {
+            "$ref": "./08.03.05-lab-explore-yang-models/learn-metadata.json"
+        },
+        {
+            "$ref": "./08.03.06-lab-use-netconf-to-access-an-ios-xe-device/learn-metadata.json"
+        },
+        {
+            "$ref": "./08.03.07-lab-use-restconf-to-access-an-ios-xe-devices/learn-metadata.json"
+        },
+        {
+            "$ref": "./08.04-cisco-network-management/learn-metadata.json"
+        },
+        {
+            "$ref": "./08.05-cisco-compute-management/learn-metadata.json"
+        },
+        {
+            "$ref": "./08.06-cisco-collaboration-platform/learn-metadata.json"
+        },
+        {
+            "$ref": "./08.06.07-lab-construnt-a-python-script-to-manage-webex-teams/learn-metadata.json"
+        },
+        {
+            "$ref": "./08.07-cisco-security-platform/learn-metadata.json"
+        },
+        {
+            "$ref": "./08.08-cisco-platforms-and-development-summary/learn-metadata.json"
+        },
+        {
+            "$ref": "./08.08.02-lab-compare-cli-and-sdn-controller-network-management/learn-metadata.json"
+        },
+        {
+            "$ref": "./08.08.03-lab-implement-rest-apis-with-an-sdn-controller/learn-metadata.json"
+        },
+        {
+            "$ref": "./08.09-prepare-for-your-exam-and-launch-your-career/learn-metadata.json"
+        },
+        {
+            "$ref": "./08.10-exam/learn-metadata.json"
+        }
+    ]
+}

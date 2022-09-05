@@ -1,0 +1,51 @@
+{
+    "title": "Основы сетей",
+    "tags": {
+        "$ref": "../material-tags.json"
+    },
+    "materialType": "course",
+    "materials": [
+        {
+            "$ref": "./05.00-introduction/learn-metadata.json"
+        },
+        {
+            "$ref": "./05.01-introduction-to-network-fundamentals/learn-metadata.json"
+        },
+        {
+            "$ref": "./05.02-network-interface-layer/learn-metadata.json"
+        },
+        {
+            "$ref": "./05.03-internetwork-layer/learn-metadata.json"
+        },
+        {
+            "$ref": "./05.04-network-devices/learn-metadata.json"
+        },
+        {
+            "$ref": "./05.04.06-lab-explore-a-simple-network/learn-metadata.json"
+        },
+        {
+            "$ref": "./05.05-network-protocols/learn-metadata.json"
+        },
+        {
+            "$ref": "./05.05.07-lab-explore-network-protocols/learn-metadata.json"
+        },
+        {
+            "$ref": "./05.06-troubleshooting-application-connectivity-issues/learn-metadata.json"
+        },
+        {
+            "$ref": "./05.06.06-lab-troubleshoot-common-network-problems/learn-metadata.json"
+        },
+        {
+            "$ref": "./05.06.07-lab-network-troubleshooting-tools/learn-metadata.json"
+        },
+        {
+            "$ref": "./05.07-networking-fundamentals-summary/learn-metadata.json"
+        },
+        {
+            "$ref": "./05.07.02-quiz/learn-metadata.json"
+        },
+        {
+            "$ref": "./05.08-exam/learn-metadata.json"
+        }
+    ]
+}
