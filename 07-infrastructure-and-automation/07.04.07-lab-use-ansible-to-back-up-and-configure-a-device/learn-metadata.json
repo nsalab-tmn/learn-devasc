@@ -1,14 +1,13 @@
 {
     "title": "Лабораторная работа. Использование Ansible для резервного копирования и настройки устройства",
-	"shortName": "lab-7.4.7",
+    "shortName": "lab-7.4.7",
     "materialType": "lab",
     "description": "В этой лабораторной работе вы изучите основы использования Ansible для автоматизации некоторых основных задач управления устройствами. Сначала вы настроите Ansible на своей виртуальной машине DEVASC. Затем вы будете использовать Ansible для подключения к CSR1000v и резервного копирования его конфигурации. Наконец, вы настроите CSR1000v с адресацией IPv6.",
     "difficulty": 1,
     "duration": "PT0H22M",
-    "tags": [
-        "Cisco",
-        "Devnet"
-    ],
+    "tags": {
+        "$ref": "../../material-tags.json"
+    },
     "credentialsSchema": {
         "userName": {
             "title": "Имя пользователя",
@@ -24,7 +23,11 @@
         }
     },
     "skills": {},
-    "testProjectPath": "./README.md",
-	"deploymentPath": "deploy",
-    "assetsPath": "assets"
+    "deploymentPath": "deploy",
+    "text": {
+        "$ref": "./README.md"
+    },
+    "assets": {
+        "$ref": "./assets"
+    }
 }

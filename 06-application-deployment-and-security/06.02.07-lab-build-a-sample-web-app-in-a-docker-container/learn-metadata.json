@@ -1,14 +1,13 @@
 {
     "title": "Лабораторная работа. Создание примера Web App в контейнере Docker",
-	"shortName": "lab-6.2.7",
+    "shortName": "lab-6.2.7",
     "materialType": "lab",
     "description": "В этой лабораторной работе вы рассмотрите основные методы создания сценариев bash, поскольку создание сценариев bash является необходимым условием для остальной части лабораторной работы. Затем вы создадите и измените сценарий Python для простого веб-приложения. Затем вы создадите сценарий bash для автоматизации процесса создания файла Docker, построения контейнера Docker и запуска контейнера Docker. Наконец, вы будете использовать команды Docker, чтобы исследовать тонкости экземпляра контейнера Docker.",
     "difficulty": 1,
     "duration": "PT0H22M",
-    "tags": [
-        "Cisco",
-        "Devnet"
-    ],
+    "tags": {
+        "$ref": "../../material-tags.json"
+    },
     "credentialsSchema": {
         "userName": {
             "title": "Имя пользователя",
@@ -24,7 +23,11 @@
         }
     },
     "skills": {},
-    "testProjectPath": "./README.md",
-	"deploymentPath": "deploy",
-    "assetsPath": "assets"
+    "deploymentPath": "deploy",
+    "text": {
+        "$ref": "./README.md"
+    },
+    "assets": {
+        "$ref": "./assets"
+    }
 }

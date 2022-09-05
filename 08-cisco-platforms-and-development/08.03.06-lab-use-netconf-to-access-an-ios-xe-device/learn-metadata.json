@@ -1,14 +1,13 @@
 {
     "title": "Лабораторная работа. Использование NETCONF для доступа к устройству IOS XE",
-	"shortName": "lab-8.3.6",
+    "shortName": "lab-8.3.6",
     "materialType": "lab",
     "description": "В этой лабораторной работе вы будете использовать клиент NETCONF, ncclient, который представляет собой модуль Python для написания сценариев на стороне клиента. Вы будете использовать ncclient для проверки настройки NETCONF, получения конфигурации устройства и изменения конфигурации устройства.",
     "difficulty": 1,
     "duration": "PT0H22M",
-    "tags": [
-        "Cisco",
-        "Devnet"
-    ],
+    "tags": {
+        "$ref": "../../material-tags.json"
+    },
     "credentialsSchema": {
         "userName": {
             "title": "Имя пользователя",
@@ -24,7 +23,11 @@
         }
     },
     "skills": {},
-    "testProjectPath": "./README.md",
-	"deploymentPath": "deploy",
-    "assetsPath": "assets"
+    "deploymentPath": "deploy",
+    "text": {
+        "$ref": "./README.md"
+    },
+    "assets": {
+        "$ref": "./assets"
+    }
 }

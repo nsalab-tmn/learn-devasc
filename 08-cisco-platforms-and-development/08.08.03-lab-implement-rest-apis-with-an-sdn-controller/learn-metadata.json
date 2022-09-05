@@ -1,14 +1,13 @@
 {
     "title": "Packet Tracer - Внедрение REST API с контроллером SDN",
-	"shortName": "lab-8.8.3",
+    "shortName": "lab-8.8.3",
     "materialType": "lab",
     "description": "В этом упражнении Packet Tracer вы будете использовать сетевой контроллер Packet Tracer и соответствующую документацию по API для отправки запросов REST от Postman и от Visual Studio Code (VS Code). Packet Tracer также поддерживает среду кодирования Python. Поэтому в заключительной части этого упражнения вы будете отправлять запросы REST из Packet Tracer.",
     "difficulty": 1,
     "duration": "PT0H22M",
-    "tags": [
-        "Cisco",
-        "Devnet"
-    ],
+    "tags": {
+        "$ref": "../../material-tags.json"
+    },
     "credentialsSchema": {
         "userName": {
             "title": "Имя пользователя",
@@ -24,7 +23,11 @@
         }
     },
     "skills": {},
-    "testProjectPath": "./README.md",
-	"deploymentPath": "deploy",
-    "assetsPath": "assets"
+    "deploymentPath": "deploy",
+    "text": {
+        "$ref": "./README.md"
+    },
+    "assets": {
+        "$ref": "./assets"
+    }
 }

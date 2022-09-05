@@ -1,14 +1,13 @@
 {
     "title": "Лабораторная работа. Инструменты описка и устранения неполадок в сети",
-	"shortName": "lab-5.6.7",
+    "shortName": "lab-5.6.7",
     "materialType": "lab",
     "description": "Чтобы исправить проблемы с сетевым подключением, разработчику важно понимать, как использовать основные инструменты устранения неполадок сети. Эти инструменты используются, чтобы определить, в чем может быть проблема с подключением.",
     "difficulty": 1,
     "duration": "PT0H22M",
-    "tags": [
-        "Cisco",
-        "Devnet"
-    ],
+    "tags": {
+        "$ref": "../../material-tags.json"
+    },
     "credentialsSchema": {
         "userName": {
             "title": "Имя пользователя",
@@ -24,7 +23,11 @@
         }
     },
     "skills": {},
-    "testProjectPath": "./README.md",
-	"deploymentPath": "deploy",
-    "assetsPath": "assets"
+    "deploymentPath": "deploy",
+    "text": {
+        "$ref": "./README.md"
+    },
+    "assets": {
+        "$ref": "./assets"
+    }
 }

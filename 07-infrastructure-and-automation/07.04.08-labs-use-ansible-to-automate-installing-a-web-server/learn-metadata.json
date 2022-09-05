@@ -1,14 +1,13 @@
 {
     "title": "Лабораторная работа. Использование Ansible для автоматической установки Web-сервера",
-	"shortName": "lab-7.4.8",
+    "shortName": "lab-7.4.8",
     "materialType": "lab",
     "description": "В этой лабораторной работе вы сначала настроите Ansible, чтобы он мог взаимодействовать с приложением веб-сервера. Затем вы создадите playbook, который автоматизирует процесс установки Apache на веб-сервере. Вы также создадите настраиваемую книгу для установки Apache с конкретными инструкциями.",
     "difficulty": 1,
     "duration": "PT0H22M",
-    "tags": [
-        "Cisco",
-        "Devnet"
-    ],
+    "tags": {
+        "$ref": "../../material-tags.json"
+    },
     "credentialsSchema": {
         "userName": {
             "title": "Имя пользователя",
@@ -24,7 +23,11 @@
         }
     },
     "skills": {},
-    "testProjectPath": "./README.md",
-	"deploymentPath": "deploy",
-    "assetsPath": "assets"
+    "deploymentPath": "deploy",
+    "text": {
+        "$ref": "./README.md"
+    },
+    "assets": {
+        "$ref": "./assets"
+    }
 }

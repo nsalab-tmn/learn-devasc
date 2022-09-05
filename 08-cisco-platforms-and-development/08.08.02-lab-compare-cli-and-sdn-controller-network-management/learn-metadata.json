@@ -1,14 +1,13 @@
 {
     "title": "Packet Tracer – Сравнение управления через CLI и SDN Controller",
-	"shortName": "lab-8.8.2",
+    "shortName": "lab-8.8.2",
     "materialType": "lab",
     "description": "В этом упражнении Packet Tracer вы сравните различия между управлением сетью из интерфейса командной строки (CLI) и использованием контроллера программно-определяемой сети (SDN) для управления сетью.",
     "difficulty": 1,
     "duration": "PT0H22M",
-    "tags": [
-        "Cisco",
-        "Devnet"
-    ],
+    "tags": {
+        "$ref": "../../material-tags.json"
+    },
     "credentialsSchema": {
         "userName": {
             "title": "Имя пользователя",
@@ -24,7 +23,11 @@
         }
     },
     "skills": {},
-    "testProjectPath": "./README.md",
-	"deploymentPath": "deploy",
-    "assetsPath": "assets"
+    "deploymentPath": "deploy",
+    "text": {
+        "$ref": "./README.md"
+    },
+    "assets": {
+        "$ref": "./assets"
+    }
 }

@@ -1,14 +1,13 @@
 {
     "title": "Лабораторная работа. Изучение модели YANG",
-	"shortName": "lab-8.3.5",
+    "shortName": "lab-8.3.5",
     "materialType": "lab",
     "description": "В этой лабораторной работе вы узнаете, как использовать инструмент pyang с открытым исходным кодом для преобразования моделей данных YANG из файлов с использованием языка YANG в гораздо более удобный для чтения формат. Используя преобразование «древовидного» представления, вы определите ключевые элементы модели YANG ietf-интерфейсов.",
     "difficulty": 1,
     "duration": "PT0H22M",
-    "tags": [
-        "Cisco",
-        "Devnet"
-    ],
+    "tags": {
+        "$ref": "../../material-tags.json"
+    },
     "credentialsSchema": {
         "userName": {
             "title": "Имя пользователя",
@@ -24,7 +23,11 @@
         }
     },
     "skills": {},
-    "testProjectPath": "./README.md",
-	"deploymentPath": "deploy",
-    "assetsPath": "assets"
+    "deploymentPath": "deploy",
+    "text": {
+        "$ref": "./README.md"
+    },
+    "assets": {
+        "$ref": "./assets"
+    }
 }

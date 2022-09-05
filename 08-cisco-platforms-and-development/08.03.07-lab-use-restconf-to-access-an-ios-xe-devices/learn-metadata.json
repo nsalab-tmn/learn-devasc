@@ -1,14 +1,13 @@
 {
     "title": "Лабораторная работа. Использование RESTCONF для доступа к устройству IOS XE",
-	"shortName": "lab-8.3.7",
+    "shortName": "lab-8.3.7",
     "materialType": "lab",
     "description": "Протокол RESTCONF предоставляет упрощенное подмножество функций NETCONF через RESTful API. RESTCONF позволяет выполнять вызовы RESTful API на устройство IOS XE. Данные, возвращаемые API, могут быть отформатированы в XML или JSON. В первой половине этой лабораторной работы вы будете использовать программу Postman для создания и отправки запросов API к службе RESTCONF, работающей на CSR1kv. Во второй половине лабораторной работы вы создадите сценарии Python для выполнения тех же задач, что и ваша программа Postman.",
     "difficulty": 1,
     "duration": "PT0H22M",
-    "tags": [
-        "Cisco",
-        "Devnet"
-    ],
+    "tags": {
+        "$ref": "../../material-tags.json"
+    },
     "credentialsSchema": {
         "userName": {
             "title": "Имя пользователя",
@@ -24,7 +23,11 @@
         }
     },
     "skills": {},
-    "testProjectPath": "./README.md",
-	"deploymentPath": "deploy",
-    "assetsPath": "assets"
+    "deploymentPath": "deploy",
+    "text": {
+        "$ref": "./README.md"
+    },
+    "assets": {
+        "$ref": "./assets"
+    }
 }
