@@ -452,31 +452,31 @@
             ],
             "answers": [
                 {
-                    "option": "1",
+                    "answer": "1",
                     "match": "1"
                 },
                 {
-                    "option": "2",
+                    "answer": "2",
                     "match": "2"
                 },
                 {
-                    "option": "3",
+                    "answer": "3",
                     "match": "3"
                 },
                 {
-                    "option": "4",
+                    "answer": "4",
                     "match": "4"
                 },
                 {
-                    "option": "5",
+                    "answer": "5",
                     "match": "5"
                 },
                 {
-                    "option": "6",
+                    "answer": "6",
                     "match": "6"
                 },
                 {
-                    "option": "7",
+                    "answer": "7",
                     "match": "7"
                 }
             ],
