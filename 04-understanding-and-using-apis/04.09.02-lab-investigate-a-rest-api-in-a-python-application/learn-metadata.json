@@ -1,8 +1,8 @@
 {
-    "title": "Лабораторная работа. Интеграция REST API в приложение Python",
+    "title": "Лабораторная работа: Интеграция REST API в приложение Python",
     "shortName": "lab-4.9.2",
     "materialType": "lab",
-    "description": "В этой лабораторной работе вы создадите приложение в Visual Studio Code (VS Code), которое извлекает данные JSON из API MapQuest Directions, анализирует данные и форматирует их для вывода пользователю. Вы будете использовать запрос GET Route из API MapQuest Directions.",
+    "description": "**Цель лабораторной работы**: освоение базовых навыков получения данных путем запроса к API через скрипт Python",
     "difficulty": 1,
     "duration": "PT0H22M",
     "tags": {
@@ -23,7 +23,6 @@
         }
     },
     "skills": {},
-    "deploymentPath": "deploy",
     "text": {
         "$ref": "./README.md"
     },
