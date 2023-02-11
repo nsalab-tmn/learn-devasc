@@ -204,7 +204,119 @@ pyats run job basic/basic_example_job.py
 
 ```
 Output
-2020-03-01T12:38:50: %EASYPY-INFO: Starting job run: basic_example_job 2020-03-01T12:38:50: %EASYPY-INFO: Runinfo directory: /Users/agentle/.pyats/runinfo/basic_example_job.2020Mar01_12:38:48.974991 2020-03-01T12:38:50: %EASYPY-INFO: -------------------------------------------------------------------------------- 2020-03-01T12:38:51: %EASYPY-INFO: Starting task execution: Task-1 2020-03-01T12:38:51: %EASYPY-INFO:     test harness = pyats.aetest 2020-03-01T12:38:51: %EASYPY-INFO:     testscript   = /Users/agentle/src/pyats-sample-scripts/basic/basic_example_script.py 2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+ 2020-03-01T12:38:51: %AETEST-INFO: |                            Starting common setup                             | 2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+ 2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+ 2020-03-01T12:38:51: %AETEST-INFO: |                       Starting subsection subsection_1                       | 2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+ 2020-03-01T12:38:51: %SCRIPT-INFO: hello world! 2020-03-01T12:38:51: %AETEST-INFO: The result of subsection subsection_1 is => PASSED 2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+ 2020-03-01T12:38:51: %AETEST-INFO: |                       Starting subsection subsection_2                       | 2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+ 2020-03-01T12:38:51: %SCRIPT-INFO: inside subsection subsection_2 2020-03-01T12:38:51: %AETEST-INFO: The result of subsection subsection_2 is => PASSED 2020-03-01T12:38:51: %AETEST-INFO: The result of common setup is => PASSED 2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+ 2020-03-01T12:38:51: %AETEST-INFO: |                        Starting testcase Testcase_One                        | 2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+ 2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+ 2020-03-01T12:38:51: %AETEST-INFO: |                            Starting section setup                            | 2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+ 2020-03-01T12:38:51: %SCRIPT-INFO: Testcase_One testcase setup/preparation 2020-03-01T12:38:51: %AETEST-INFO: The result of section setup is => PASSED 2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+ 2020-03-01T12:38:51: %AETEST-INFO: |                           Starting section test_1                            | 2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+ 2020-03-01T12:38:51: %SCRIPT-INFO: test section: test_1 in testcase Testcase_One 2020-03-01T12:38:51: %AETEST-INFO: The result of section test_1 is => PASSED 2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+ 2020-03-01T12:38:51: %AETEST-INFO: |                           Starting section test_2                            | 2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+ 2020-03-01T12:38:51: %SCRIPT-INFO: test section: test_2 in testcase Testcase_One 2020-03-01T12:38:51: %AETEST-INFO: Passed reason: variable b contains the expected value 2020-03-01T12:38:51: %AETEST-INFO: The result of section test_2 is => PASSED 2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+ 2020-03-01T12:38:51: %AETEST-INFO: |                           Starting section cleanup                           | 2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+ 2020-03-01T12:38:51: %SCRIPT-INFO: Testcase_One testcase cleanup/teardown 2020-03-01T12:38:51: %AETEST-INFO: The result of section cleanup is => PASSED 2020-03-01T12:38:51: %AETEST-INFO: The result of testcase Testcase_One is => PASSED 2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+ 2020-03-01T12:38:51: %AETEST-INFO: |                           Starting common cleanup                            | 2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+ 2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+ 2020-03-01T12:38:51: %AETEST-INFO: |                     Starting subsection clean_everything                     | 2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+ 2020-03-01T12:38:51: %SCRIPT-INFO: goodbye world 2020-03-01T12:38:51: %AETEST-INFO: The result of subsection clean_everything is => PASSED 2020-03-01T12:38:51: %AETEST-INFO: The result of common cleanup is => PASSED 2020-03-01T12:38:51: %EASYPY-INFO: -------------------------------------------------------------------------------- 2020-03-01T12:38:51: %EASYPY-INFO: Job finished. Wrapping up... 2020-03-01T12:38:52: %EASYPY-INFO: Creating archive file: /Users/agentle/.pyats/archive/20-Mar/basic_example_job.2020Mar01_12:38:48.974991.zip 2020-03-01T12:38:52: %EASYPY-INFO: +------------------------------------------------------------------------------+ 2020-03-01T12:38:52: %EASYPY-INFO: |                                Easypy Report                                 | 2020-03-01T12:38:52: %EASYPY-INFO: +------------------------------------------------------------------------------+ 2020-03-01T12:38:52: %EASYPY-INFO: pyATS Instance   : /Users/agentle/.local/share/virtualenvs/pyats-sample-scripts-b4vw68FQ/bin/.. 2020-03-01T12:38:52: %EASYPY-INFO: Python Version   : cpython-3.8.1 (64bit) 2020-03-01T12:38:52: %EASYPY-INFO: CLI Arguments    : /Users/agentle/.local/share/virtualenvs/pyats-sample-scripts-b4vw68FQ/bin/pyats run job basic/basic_example_job.py 2020-03-01T12:38:52: %EASYPY-INFO: User             : agentle 2020-03-01T12:38:52: %EASYPY-INFO: Host Server      : AGENTLE-M-339A 2020-03-01T12:38:52: %EASYPY-INFO: Host OS Version  : Mac OSX 10.14.6 (x86_64) 2020-03-01T12:38:52: %EASYPY-INFO: 2020-03-01T12:38:52: %EASYPY-INFO: Job Information 2020-03-01T12:38:52: %EASYPY-INFO:     Name         : basic_example_job 2020-03-01T12:38:52: %EASYPY-INFO:     Start time   : 2020-03-01 12:38:50.019013 2020-03-01T12:38:52: %EASYPY-INFO:     Stop time    : 2020-03-01 12:38:51.732162 2020-03-01T12:38:52: %EASYPY-INFO:     Elapsed time : 0:00:01.713149 2020-03-01T12:38:52: %EASYPY-INFO:     Archive      : /Users/agentle/.pyats/archive/20-Mar/basic_example_job.2020Mar01_12:38:48.974991.zip 2020-03-01T12:38:52: %EASYPY-INFO: 2020-03-01T12:38:52: %EASYPY-INFO: Total Tasks    : 1 2020-03-01T12:38:52: %EASYPY-INFO: 2020-03-01T12:38:52: %EASYPY-INFO: Overall Stats 2020-03-01T12:38:52: %EASYPY-INFO:     Passed     : 3 2020-03-01T12:38:52: %EASYPY-INFO:     Passx      : 0 2020-03-01T12:38:52: %EASYPY-INFO:     Failed     : 0 2020-03-01T12:38:52: %EASYPY-INFO:     Aborted    : 0 2020-03-01T12:38:52: %EASYPY-INFO:     Blocked    : 0 2020-03-01T12:38:52: %EASYPY-INFO:     Skipped    : 0 2020-03-01T12:38:52: %EASYPY-INFO:     Errored    : 0 2020-03-01T12:38:52: %EASYPY-INFO: 2020-03-01T12:38:52: %EASYPY-INFO:     TOTAL      : 3 2020-03-01T12:38:52: %EASYPY-INFO: 2020-03-01T12:38:52: %EASYPY-INFO: Success Rate   : 100.00 % 2020-03-01T12:38:52: %EASYPY-INFO: 2020-03-01T12:38:52: %EASYPY-INFO: +------------------------------------------------------------------------------+ 2020-03-01T12:38:52: %EASYPY-INFO: |                             Task Result Summary                              | 2020-03-01T12:38:52: %EASYPY-INFO: +------------------------------------------------------------------------------+ 2020-03-01T12:38:52: %EASYPY-INFO: Task-1: basic_example_script.common_setup                                 PASSED 2020-03-01T12:38:52: %EASYPY-INFO: Task-1: basic_example_script.Testcase_One                                 PASSED 2020-03-01T12:38:52: %EASYPY-INFO: Task-1: basic_example_script.common_cleanup                               PASSED 2020-03-01T12:38:52: %EASYPY-INFO: 2020-03-01T12:38:52: %EASYPY-INFO: +------------------------------------------------------------------------------+ 2020-03-01T12:38:52: %EASYPY-INFO: |                             Task Result Details                              | 2020-03-01T12:38:52: %EASYPY-INFO: +------------------------------------------------------------------------------+ 2020-03-01T12:38:52: %EASYPY-INFO: Task-1: basic_example_script 2020-03-01T12:38:52: %EASYPY-INFO: |-- common_setup                                                          PASSED 2020-03-01T12:38:52: %EASYPY-INFO: |   |-- subsection_1                                                      PASSED 2020-03-01T12:38:52: %EASYPY-INFO: |   -- subsection_2                                                      PASSED 2020-03-01T12:38:52: %EASYPY-INFO: |-- Testcase_One                                                          PASSED 2020-03-01T12:38:52: %EASYPY-INFO: |   |-- setup                                                             PASSED 2020-03-01T12:38:52: %EASYPY-INFO: |   |-- test_1                                                            PASSED 2020-03-01T12:38:52: %EASYPY-INFO: |   |-- test_2                                                            PASSED 2020-03-01T12:38:52: %EASYPY-INFO: |   -- cleanup                                                           PASSED 2020-03-01T12:38:52: %EASYPY-INFO: -- common_cleanup                                                        PASSED 2020-03-01T12:38:52: %EASYPY-INFO:     -- clean_everything                                                  PASSED 2020-03-01T12:38:52: %EASYPY-INFO: Sending report email... 2020-03-01T12:38:52: %EASYPY-INFO: Missing SMTP server configuration, or failed to reach/authenticate/send mail. Result notification email failed to send. 2020-03-01T12:38:52: %EASYPY-INFO: Done!
+2020-03-01T12:38:50: %EASYPY-INFO: Starting job run: basic_example_job
+2020-03-01T12:38:50: %EASYPY-INFO: Runinfo directory: /Users/agentle/.pyats/runinfo/basic_example_job.2020Mar01_12:38:48.974991
+2020-03-01T12:38:50: %EASYPY-INFO: --------------------------------------------------------------------------------
+2020-03-01T12:38:51: %EASYPY-INFO: Starting task execution: Task-1
+2020-03-01T12:38:51: %EASYPY-INFO:     test harness = pyats.aetest
+2020-03-01T12:38:51: %EASYPY-INFO:     testscript   = /Users/agentle/src/pyats-sample-scripts/basic/basic_example_script.py
+2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+
+2020-03-01T12:38:51: %AETEST-INFO: |                            Starting common setup                             |
+2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+
+2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+
+2020-03-01T12:38:51: %AETEST-INFO: |                       Starting subsection subsection_1                       |
+2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+
+2020-03-01T12:38:51: %SCRIPT-INFO: hello world!
+2020-03-01T12:38:51: %AETEST-INFO: The result of subsection subsection_1 is => PASSED
+2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+
+2020-03-01T12:38:51: %AETEST-INFO: |                       Starting subsection subsection_2                       |
+2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+
+2020-03-01T12:38:51: %SCRIPT-INFO: inside subsection subsection_2
+2020-03-01T12:38:51: %AETEST-INFO: The result of subsection subsection_2 is => PASSED
+2020-03-01T12:38:51: %AETEST-INFO: The result of common setup is => PASSED
+2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+
+2020-03-01T12:38:51: %AETEST-INFO: |                        Starting testcase Testcase_One                        |
+2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+
+2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+
+2020-03-01T12:38:51: %AETEST-INFO: |                            Starting section setup                            |
+2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+
+2020-03-01T12:38:51: %SCRIPT-INFO: Testcase_One testcase setup/preparation
+2020-03-01T12:38:51: %AETEST-INFO: The result of section setup is => PASSED
+2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+
+2020-03-01T12:38:51: %AETEST-INFO: |                           Starting section test_1                            |
+2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+
+2020-03-01T12:38:51: %SCRIPT-INFO: test section: test_1 in testcase Testcase_One
+2020-03-01T12:38:51: %AETEST-INFO: The result of section test_1 is => PASSED
+2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+
+2020-03-01T12:38:51: %AETEST-INFO: |                           Starting section test_2                            |
+2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+
+2020-03-01T12:38:51: %SCRIPT-INFO: test section: test_2 in testcase Testcase_One
+2020-03-01T12:38:51: %AETEST-INFO: Passed reason: variable b contains the expected value
+2020-03-01T12:38:51: %AETEST-INFO: The result of section test_2 is => PASSED
+2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+
+2020-03-01T12:38:51: %AETEST-INFO: |                           Starting section cleanup                           |
+2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+
+2020-03-01T12:38:51: %SCRIPT-INFO: Testcase_One testcase cleanup/teardown
+2020-03-01T12:38:51: %AETEST-INFO: The result of section cleanup is => PASSED
+2020-03-01T12:38:51: %AETEST-INFO: The result of testcase Testcase_One is =>PASSED
+2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+
+2020-03-01T12:38:51: %AETEST-INFO: |                           Starting common cleanup                            |
+2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+
+2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+
+2020-03-01T12:38:51: %AETEST-INFO: |                     Starting subsection clean_everything                     |
+2020-03-01T12:38:51: %AETEST-INFO: +------------------------------------------------------------------------------+
+2020-03-01T12:38:51: %SCRIPT-INFO: goodbye world
+2020-03-01T12:38:51: %AETEST-INFO: The result of subsection clean_everything is => PASSED
+2020-03-01T12:38:51: %AETEST-INFO: The result of common cleanup is => PASSED
+2020-03-01T12:38:51: %EASYPY-INFO: --------------------------------------------------------------------------------
+2020-03-01T12:38:51: %EASYPY-INFO: Job finished. Wrapping up...
+2020-03-01T12:38:52: %EASYPY-INFO: Creating archive file: /Users/agentle/.pyats/archive/20-Mar/basic_example_job.2020Mar01_12:38:48.974991.zip
+2020-03-01T12:38:52: %EASYPY-INFO: +------------------------------------------------------------------------------+
+2020-03-01T12:38:52: %EASYPY-INFO: |                                Easypy Report                                 |
+2020-03-01T12:38:52: %EASYPY-INFO: +------------------------------------------------------------------------------+
+2020-03-01T12:38:52: %EASYPY-INFO: pyATS Instance   : /Users/agentle/.local/share/virtualenvs/pyats-sample-scripts-b4vw68FQ/bin/..
+2020-03-01T12:38:52: %EASYPY-INFO: Python Version   : cpython-3.8.1 (64bit)
+2020-03-01T12:38:52: %EASYPY-INFO: CLI Arguments    : /Users/agentle/.local/share/virtualenvs/pyats-sample-scripts-b4vw68FQ/bin/pyats run job basic/basic_example_job.py
+2020-03-01T12:38:52: %EASYPY-INFO: User             : agentle
+2020-03-01T12:38:52: %EASYPY-INFO: Host Server      : AGENTLE-M-339A
+2020-03-01T12:38:52: %EASYPY-INFO: Host OS Version  : Mac OSX 10.14.6 (x86_64)
+2020-03-01T12:38:52: %EASYPY-INFO:
+2020-03-01T12:38:52: %EASYPY-INFO: Job Information
+2020-03-01T12:38:52: %EASYPY-INFO:     Name         : basic_example_job
+2020-03-01T12:38:52: %EASYPY-INFO:     Start time   : 2020-03-01 12:38:50.019013
+2020-03-01T12:38:52: %EASYPY-INFO:     Stop time    : 2020-03-01 12:38:51.732162
+2020-03-01T12:38:52: %EASYPY-INFO:     Elapsed time : 0:00:01.713149
+2020-03-01T12:38:52: %EASYPY-INFO:     Archive      : /Users/agentle/.pyats/archive/20-Mar/basic_example_job.2020Mar01_12:38:48.974991.zip
+2020-03-01T12:38:52: %EASYPY-INFO:
+2020-03-01T12:38:52: %EASYPY-INFO: Total Tasks    : 1
+2020-03-01T12:38:52: %EASYPY-INFO:
+2020-03-01T12:38:52: %EASYPY-INFO: Overall Stats
+2020-03-01T12:38:52: %EASYPY-INFO:     Passed     : 3
+2020-03-01T12:38:52: %EASYPY-INFO:     Passx      : 0
+2020-03-01T12:38:52: %EASYPY-INFO:     Failed     : 0
+2020-03-01T12:38:52: %EASYPY-INFO:     Aborted    : 0
+2020-03-01T12:38:52: %EASYPY-INFO:     Blocked    : 0
+2020-03-01T12:38:52: %EASYPY-INFO:     Skipped    : 0
+2020-03-01T12:38:52: %EASYPY-INFO:     Errored    : 0
+2020-03-01T12:38:52: %EASYPY-INFO:
+2020-03-01T12:38:52: %EASYPY-INFO:     TOTAL      : 3
+2020-03-01T12:38:52: %EASYPY-INFO:
+2020-03-01T12:38:52: %EASYPY-INFO: Success Rate   : 100.00 %
+2020-03-01T12:38:52: %EASYPY-INFO:
+2020-03-01T12:38:52: %EASYPY-INFO: +------------------------------------------------------------------------------+
+2020-03-01T12:38:52: %EASYPY-INFO: |                             Task Result Summary                              |
+2020-03-01T12:38:52: %EASYPY-INFO: +------------------------------------------------------------------------------+
+2020-03-01T12:38:52: %EASYPY-INFO: Task-1: basic_example_script.common_setup                                 PASSED
+2020-03-01T12:38:52: %EASYPY-INFO: Task-1: basic_example_script.Testcase_One                                 PASSED
+2020-03-01T12:38:52: %EASYPY-INFO: Task-1: basic_example_script.common_cleanup                               PASSED
+2020-03-01T12:38:52: %EASYPY-INFO:
+2020-03-01T12:38:52: %EASYPY-INFO: +------------------------------------------------------------------------------+
+2020-03-01T12:38:52: %EASYPY-INFO: |                             Task Result Details                              |
+2020-03-01T12:38:52: %EASYPY-INFO: +------------------------------------------------------------------------------+
+2020-03-01T12:38:52: %EASYPY-INFO: Task-1: basic_example_script
+2020-03-01T12:38:52: %EASYPY-INFO: |-- common_setup                                                          PASSED
+2020-03-01T12:38:52: %EASYPY-INFO: |   |-- subsection_1                                                      PASSED
+2020-03-01T12:38:52: %EASYPY-INFO: |   -- subsection_2                                                      PASSED
+2020-03-01T12:38:52: %EASYPY-INFO: |-- Testcase_One                                                          PASSED
+2020-03-01T12:38:52: %EASYPY-INFO: |   |-- setup                                                             PASSED
+2020-03-01T12:38:52: %EASYPY-INFO: |   |-- test_1                                                            PASSED
+2020-03-01T12:38:52: %EASYPY-INFO: |   |-- test_2                                                            PASSED
+2020-03-01T12:38:52: %EASYPY-INFO: |   -- cleanup                                                           PASSED
+2020-03-01T12:38:52: %EASYPY-INFO: -- common_cleanup                                                        PASSED
+2020-03-01T12:38:52: %EASYPY-INFO:     -- clean_everything                                                  PASSED
+2020-03-01T12:38:52: %EASYPY-INFO: Sending report email...
+2020-03-01T12:38:52: %EASYPY-INFO: Missing SMTP server configuration, or failed to reach/authenticate/send mail. Result notification email failed to send.
+2020-03-01T12:38:52: %EASYPY-INFO: Done!
 ```
 
 ### Совет профессионала
