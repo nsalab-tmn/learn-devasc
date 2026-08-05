@@ -120,7 +120,7 @@
             "question": "Какой язык используется протоколом NETCONF для кодирования данных конфигурации и сообщений протокола?"
         },
         {
-            "answerType": "singleChoice",
+            "answerType": "multiChoice",
             "answers": [
                 {
                     "answer": "Модель отображения",
@@ -265,7 +265,7 @@
             "question": "Какие функции интерфейс AXL предоставляет пользователям?"
         },
         {
-            "answerType": "singleChoice",
+            "answerType": "multiChoice",
             "answers": [
                 {
                     "answer": "Их можно использовать для получения истории звонков агента.",
