@@ -301,7 +301,7 @@ API **GET /books** предоставляет информацию для дос
 
 5.  Щелкните панель API **GET /books/{id}**, чтобы закрыть окно.
 
-**Шаг 12: Удалите конкретную книгу с помощью API DELETE /books {id}.**
+**Шаг 12: Удалите конкретную книгу с помощью API DELETE /books/{id}.**
 
 1.  Выберите API **DELETE /books/{id}**. Обратите внимание, что для этого API требуется **id** в качестве параметра.
 
@@ -562,12 +562,12 @@ API **GET /books** предоставляет информацию для дос
             "id": 4,
             "title": "IPv6 Fundamentals",
             "author": "Rick Graziani"
-        }
+        },
         {
             "id": 5,
             "title": "31 Days Before Your CCNA Exam",
             "author": "Allan Johnson"
-        },
+        }
     ]
     ```
 

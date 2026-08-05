@@ -254,7 +254,7 @@
                     "correct": false
                 }
             ],
-            "question": "В примере URI запроса REST API **http://example.com/update/person?id=42&email=person%40example.com** какой термин описывает компонент **example.com**?"
+            "question": "В примере URI запроса REST API **http://example.com/update/person?id=42&email=person%40example.com** какой термин описывает компонент **/update/person**?"
         },
         {
             "answerType": "singleChoice",
@@ -369,32 +369,6 @@
             "answerType": "singleChoice",
             "answers": [
                 {
-                    "answer": "",
-                    "comment": "",
-                    "correct": true
-                },
-                {
-                    "answer": "",
-                    "comment": "",
-                    "correct": false
-                },
-                {
-                    "answer": "",
-                    "comment": "",
-                    "correct": false
-                },
-                {
-                    "answer": "",
-                    "comment": "",
-                    "correct": false
-                }
-            ],
-            "question": ""
-        },
-        {
-            "answerType": "singleChoice",
-            "answers": [
-                {
                     "answer": "Протокол неверный.",
                     "comment": "В сообщении об ошибке указано «ConnectionError». Адрес хоста назначения, вероятно, неверен, потому что он недоступен.",
                     "correct": false
@@ -415,7 +389,7 @@
                     "correct": false
                 }
             ],
-            "question": "![](./assets/4.10.png)\nПосмотрите на рисунок. Сетевой администратор использует сценарий Python для тестирования запроса REST API. Сообщение трассировки указывает на ошибку в URI. Какова возможная проблема?"
+            "question": "![](./assets/4.10-01.png)\nПосмотрите на рисунок. Сетевой администратор использует сценарий Python для тестирования запроса REST API. Сообщение трассировки указывает на ошибку в URI. Какова возможная проблема?"
         },
         {
             "answerType": "singleChoice",
@@ -441,7 +415,7 @@
                     "correct": false
                 }
             ],
-            "question": "![](./assets/4.10.png)\nПосмотрите на рисунок. Сетевой администратор использует скрипт Python для отправки запроса REST API. Какова цель строки кода ``resp = request.get(url, verify = False)``?"
+            "question": "![](./assets/4.10-02.png)\nПосмотрите на рисунок. Сетевой администратор использует скрипт Python для отправки запроса REST API. Какова цель строки кода ``resp = request.get(url, verify = False)``?"
         },
         {
             "answerType": "matching",

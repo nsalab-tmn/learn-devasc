@@ -228,7 +228,7 @@
             "answerType": "singleChoice",
             "answers": [
                 {
-                    "answer": "to import Python modules",
+                    "answer": "для импорта модулей Python",
                     "comment": "Когда создается сценарий переменная может использоваться для хранения информации. Имя переменной находится слева, а значение — справа.",
                     "correct": false
                 },
