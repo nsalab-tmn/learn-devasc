@@ -144,7 +144,7 @@ def circumference(radius):
   return circumferenceValue
 def printCircumference (radius):
   myCircumference = circumference(radius)
-  print ("("Окружность круга с радиусом " + str(radius) + " равна " + str(myCircumference))
+  print ("Окружность круга с радиусом " + str(radius) + " равна " + str(myCircumference))
 radius1 = 2
 radius2 = 5
 radius3 = 7
@@ -226,7 +226,7 @@ class Circle:
 
     def printCircumference(self):
       myCircumference = self.circumference()
-      print ("Длина о кружности с радиусом" + str (self.radius) + " равна " + str (myCircumference))
+      print ("Длина окружности с радиусом " + str (self.radius) + " равна " + str (myCircumference))
 ```
 Приложение, которое существует в том же каталоге, что и circleModule.py может использовать этот модуль, импортировав его, создав экземпляр класса, а затем используя точечную нотацию для вызова его функций, как показано ниже:
 
