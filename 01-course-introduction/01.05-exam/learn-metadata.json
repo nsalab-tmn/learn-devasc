@@ -30,7 +30,7 @@
                     "correct": false
                 }
             ],
-            "question": "Системный администратор запускает команду `apt-get update` в операционной системе Linux. Какова цель этой команды?"
+            "question": "Системный администратор запускает команду `apt-get upgrade` в операционной системе Linux. Какова цель этой команды?"
         },
         {
             "answerType": "singleChoice",
@@ -119,8 +119,8 @@
                     "correct": false
                 },
                 {
-                    "answer": "****",
-                    "comment": "ls -l",
+                    "answer": "**ls -l**",
+                    "comment": "",
                     "correct": true
                 },
                 {
@@ -461,7 +461,7 @@
                     "correct": false
                 }
             ],
-            "question": "Студент изучает Python и просматривает сценарий Python со следующим кодом:\n\n```\naclNum = int(input(\"What is the IPv4 ACL number? \"))\nif aclNum >= 1 and aclNum <= 99:\n     print(\"This is a standard IPv4 ACL.\")\nelif aclNum >=100 and aclNum <= 199:\n     print(\"This is an extended IPv4 ACL.\")\nelse:\n     print(\"This is not a standard or extended IPv4 ACL.\")\n```\nПри каком условии будет будет выполнен ``elif``?"
+            "question": "Студент изучает Python и просматривает сценарий Python со следующим кодом:\n\n```\naclNum = int(input(\"What is the IPv4 ACL number? \"))\nif aclNum >= 1 and aclNum <= 99:\n     print(\"This is a standard IPv4 ACL.\")\nelif aclNum >=100 and aclNum <= 199:\n     print(\"This is an extended IPv4 ACL.\")\nelse:\n     print(\"This is not a standard or extended IPv4 ACL.\")\n```\nПри каком условии будет выполнен ``elif``?"
         }
     ],
     "skills": {},

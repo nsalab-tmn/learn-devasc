@@ -35,7 +35,7 @@
                     "correct": false
                 }
             ],
-            "question": "Студент изучает Python в интерактивном режиме интерпретатора. Он подает команды:\n\n```\n>>> routers=[]\n>>> switches=[]\n>>> devices=[\"RT1\", \"RT2\", \"RT3\", SW1\", \"SW2\", \"SW3\"]\n>>> devices=devices + [\"RT4\", \"SW4\"]\n>>> for i in devices:\n             if \"R\" in i:\n                    routers.append(i)\n             else: switches.append(i)\n>>> switches\n```\nКаким будет результат?"
+            "question": "Студент изучает Python в интерактивном режиме интерпретатора. Он подает команды:\n\n```\n>>> routers=[]\n>>> switches=[]\n>>> devices=[\"RT1\", \"RT2\", \"RT3\", \"SW1\", \"SW2\", \"SW3\"]\n>>> devices=devices + [\"RT4\", \"SW4\"]\n>>> for i in devices:\n             if \"R\" in i:\n                    routers.append(i)\n             else: switches.append(i)\n>>> switches\n```\nКаким будет результат?"
         },
         {
             "answerType": "singleChoice",
@@ -51,7 +51,7 @@
                     "correct": true
                 },
                 {
-                    "answer": "РТ1",
+                    "answer": "RT1",
                     "comment": "Тема 1.3.0. В Python на элемент списка можно ссылаться и управлять им с помощью его индекса. Первый элемент списка индексируется как ноль, второй — как единица и так далее. На последний элемент также можно ссылаться с индексом [-1] .",
                     "correct": false
                 },
