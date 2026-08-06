@@ -266,7 +266,7 @@ print(json_search("issueSummary",data))
     key should be found, return list should not be empty
     ----------------------------------------------------------------------
     Traceback (most recent call last):
-    File "/home/devasc/labs/devent-src/unittest/test_json_search.py", line 11, in test_search_found
+    File "/home/devasc/labs/devnet-src/unittest/test_json_search.py", line 11, in test_search_found
         self.assertTrue([]!=json_search(key1,data))
     AssertionError: False is not true
 

@@ -395,7 +395,7 @@ chmod 444 index.html
 Теперь вы готовы запустить развертывание. Из каталога верхнего уровня вашего проекта вы можете сделать это с помощью оператора:
 
 ```
-ansible- -i inventory -u myname -K site.yml
+ansible-playbook -i inventory -u myname -K site.yml
 ```
 
 * `-i`: называет ваш файл инвентаря.

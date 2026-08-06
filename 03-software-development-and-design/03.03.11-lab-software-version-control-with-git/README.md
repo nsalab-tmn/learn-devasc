@@ -52,7 +52,7 @@
     devasc@labvm:~$ git config --global user.email sample@example.com
     ```
 
-3.	В любой момент вы можете просмотреть эти настройки с помощью команды `git config –list`.
+3.	В любой момент вы можете просмотреть эти настройки с помощью команды `git config --list`.
 
     ```
     devasc@labvm:~$ git config --list
@@ -76,7 +76,7 @@
     devasc@labvm:~/labs/devnet-src/git-intro$
     ```
 
-6.	Используйте команду `git init`, чтобы инициализировать текущий каталог (git-intro) как репозиторий Git. Отображаемое сообщение указывает на то, что вы создали локальный репозиторий в своем проекте, который содержится в скрытом каталоге **.git**. Здесь находится вся ваша история изменений. Вы можете увидеть это с помощью команды `ls –a`.
+6.	Используйте команду `git init`, чтобы инициализировать текущий каталог (git-intro) как репозиторий Git. Отображаемое сообщение указывает на то, что вы создали локальный репозиторий в своем проекте, который содержится в скрытом каталоге **.git**. Здесь находится вся ваша история изменений. Вы можете увидеть это с помощью команды `ls -a`.
 
     ```
     devasc@labvm:~/labs/devnet-src/git-intro$ git init
@@ -119,7 +119,7 @@
     devasc@labvm:~/labs/devnet-src/git-intro$
     ```
 
-2. Используйте команду `ls –la`, чтобы убедиться, что файл и каталог **.git** находятся во вводном каталоге **git**. Затем используйте `cat` для отображения содержимого **DEVASC.txt**.
+2. Используйте команду `ls -la`, чтобы убедиться, что файл и каталог **.git** находятся во вводном каталоге **git**. Затем используйте `cat` для отображения содержимого **DEVASC.txt**.
 
     ```
     devasc@labvm:~/labs/devnet-src/git-intro$ ls -la
@@ -128,7 +128,7 @@
     drwxrwxr-x 5 devasc devasc 4096 Apr 17 19:50 ..
     -rw-rw-r-- 1 devasc devasc   48 Apr 17 20:38 DEVASC.txt
     drwxrwxr-x 7 devasc devasc 4096 Apr 17 19:57 .git
-    evasc@labvm:~/src/git-intro$ cat DEVASC.txt
+    devasc@labvm:~/labs/devnet-src/git-intro$ cat DEVASC.txt
     I am on my way to passing the Cisco DEVASC exam
     devasc@labvm:~/labs/devnet-src/git-intro$
     ```
@@ -454,7 +454,7 @@ devasc@labvm:~/labs/devnet-src/git-intro$
     devasc@labvm:~/labs/devnet-src/git-intro$
     ```
 
-2. Удалите ветку функции с помощью команды `git branch –d` *<branch-name>*.
+2. Удалите ветку функции с помощью команды `git branch -d` *<branch-name>*.
 
     ```
     devasc@labvm:~/labs/devnet-src/git-intro$ git branch -d feature
@@ -537,7 +537,7 @@ devasc@labvm:~/labs/devnet-src/git-intro$
 
 **Шаг 6: Подготовьте и зафиксируйте тестовую ветку.**
 
-Подготовьте и зафиксируйте файл с помощью одной команды `git commit –a`. Параметр `-a` влияет только на файлы, которые были изменены и удалены. Это не влияет на новые файлы.
+Подготовьте и зафиксируйте файл с помощью одной команды `git commit -a`. Параметр `-a` влияет только на файлы, которые были изменены и удалены. Это не влияет на новые файлы.
 
 ```
 devasc@labvm:~/labs/devnet-src/git-intro$ git commit -a -m "Change Cisco to NetAcad"
@@ -587,7 +587,7 @@ devasc@labvm:~/labs/devnet-src/git-intro$
 
 **Шаг 10: Подготовьте и зафиксируйте основную ветку.**
 
-Подготовьте и зафиксируйте файл с помощью команды `git commit –a`. 
+Подготовьте и зафиксируйте файл с помощью команды `git commit -a`. 
 
 ```
 devasc@labvm:~/labs/devnet-src/git-intro$ git commit -a -m "Changed Cisco to DevNet"
@@ -680,7 +680,7 @@ devasc@labvm:~/labs/devnet-src/git-intro$
 
 **Шаг 15: Подготовьте и зафиксируйте основную ветку.**
 
-Подготовьте и зафиксируйте DEVASC.txt в главной ветке с помощью команды `git commit –a`. 
+Подготовьте и зафиксируйте DEVASC.txt в главной ветке с помощью команды `git commit -a`. 
 
 ```
 devasc@labvm:~/labs/devnet-src/git-intro$ git add DEVASC.txt
@@ -786,7 +786,7 @@ Date:   Sun Apr 19 01:09:53 2020 +0000
     devasc@labvm:~/labs/devnet-src/git-intro/devasc-study-team$
     ```
 
-2. Затем проверьте глобальные переменные **git** с помощью команды `git config –list`. 
+2. Затем проверьте глобальные переменные **git** с помощью команды `git config --list`. 
 
     ```
     devasc@labvm:~/labs/devnet-src/git-intro/devasc-study-team$ git config --list
@@ -873,7 +873,7 @@ Date:   Sun Apr 19 01:09:53 2020 +0000
     devasc@labvm:~/labs/devnet-src/git-intro/devasc-study-team$
     ```
 
-**Шаг 2: Отправьте (push) файл из Git в GitHub.**
+**Шаг 11: Отправьте (push) файл из Git в GitHub.**
 
 Используйте команду `git push origin master`, чтобы отправить (отправить) файл в репозиторий GitHub. Вам будет предложено ввести имя пользователя и пароль, которые вы использовали для создания своей учетной записи GitHub.
 

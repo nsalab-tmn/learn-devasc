@@ -459,7 +459,7 @@ Linux получил широкое распространение в серве
     devasc@labvm:~$
     </code></pre>
 
-5.	Используйте команду `grep` с символом привязки `.` чтобы сопоставить слова определенной длины с разными буквами в них. Обратите внимание, что выделен не только **daem**, но и **dnsm**.
+5.	Используйте команду `grep` с подстановочным символом `.` чтобы сопоставить слова определенной длины с разными буквами в них. Обратите внимание, что выделен не только **daem**, но и **dnsm**.
 
     <pre><code>devasc@labvm:~$ <strong>grep 'd..m' /etc/passwd</strong>
     <strong><em>daem</em></strong>on:x:1:1:<strong><em>daem</em></strong>on:/usr/sbin:/usr/sbin/nologin
@@ -484,7 +484,7 @@ Linux получил широкое распространение в серве
     systemd-network:x:<strong><em>999</em></strong>:<strong><em>999</em></strong>:systemd Network Management:/:/usr/sbin/nologin
     systemd-resolve:x:<strong><em>998</em></strong>:<strong><em>998</em></strong>:systemd Resolver:/:/usr/sbin/nologin
     systemd-timesync:x:<strong><em>99</em></strong>7:<strong><em>99</em></strong>7:systemd Time Synchronization:/:/usr/sbin/nologin
-    systemd-coredump:x:,em>99</em></strong>6:<strong><em>99</em></strong>6:systemd Core Dumper:/:/usr/sbin/nologin
+    systemd-coredump:x:<strong><em>99</em></strong>6:<strong><em>99</em></strong>6:systemd Core Dumper:/:/usr/sbin/nologin
     rtkit:x:10<strong><em>8</em></strong>:11<strong><em>9</em></strong>:RealtimeKit,,,:/proc:/usr/sbin/nologin
     dnsmasq:x:10<strong><em>9</em></strong>:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
     devasc@labvm:~$
